@@ -5,4 +5,5 @@ menuBtn?.addEventListener('click', () => {
   menuBtn.setAttribute('aria-expanded', String(open));
 });
 nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
-document.getElementById('year').textContent = new Date().getFullYear();
+const year = document.getElementById('year');
+if (year) year.textContent = new Date().getFullYear();
