@@ -1,3 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="520" height="180" viewBox="0 0 520 180">
-    <rect width="100%" height="100%" rx="16" fill="#ffffff"/><text x="260" y="86" text-anchor="middle" font-size="60" font-weight="800" fill="#1b61ad" font-family="Arial, Noto Sans TC, sans-serif" letter-spacing="1">OMRON</text><text x="260" y="132" text-anchor="middle" font-size="20" font-weight="600" fill="#5d6970" font-family="Noto Sans TC, Arial, sans-serif">歐姆龍</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="29.166" viewBox="0 0 150 29.166">
+  <g id="组_4" data-name="组 4" transform="translate(-182.388 -275.047)">
+    <path id="路径_1" data-name="路径 1" d="M196.971,298.1a8.473,8.473,0,1,1,8.472-8.473,8.473,8.473,0,0,1-8.472,8.473m0,6.11a14.583,14.583,0,1,0-14.583-14.583,14.583,14.583,0,0,0,14.583,14.583" fill="#0057aa"/>
+    <path id="路径_2" data-name="路径 2" d="M333.672,304.213a14.583,14.583,0,1,1,14.584-14.582,14.582,14.582,0,0,1-14.584,14.582m0-6.11a8.473,8.473,0,1,0-8.471-8.472,8.473,8.473,0,0,0,8.471,8.472" transform="translate(-42.119)" fill="#0057aa"/>
+    <g id="组_1" data-name="组 1" transform="translate(214.748 275.741)">
+      <path id="路径_3" data-name="路径 3" d="M229.158,276.242v27.587h6.111v-22.5h6.667v22.5h6.111v-22.5h2.361a4.305,4.305,0,0,1,4.306,4.306v18.195h6.111V285.773a9.722,9.722,0,0,0-9.722-9.723H235.3Q232.2,276.05,229.158,276.242Z" transform="translate(-229.158 -276.05)" fill="#0057aa"/>
+    </g>
+    <g id="组_2" data-name="组 2" transform="translate(309.051 275.741)">
+      <path id="路径_4" data-name="路径 4" d="M365.455,276.242l0,27.587h6.11v-22.5h6.807a4.307,4.307,0,0,1,4.306,4.306v18.195h6.111V285.773a9.722,9.722,0,0,0-9.723-9.723H371.56C369.506,276.05,367.478,276.115,365.455,276.242Z" transform="translate(-365.455 -276.05)" fill="#0057aa"/>
+    </g>
+    <g id="组_3" data-name="组 3" transform="translate(251.138 275.741)">
+      <path id="路径_5" data-name="路径 5" d="M281.754,276.242v27.587h6.11v-22.5h7.223a4.306,4.306,0,1,1,0,8.611h-5.278l9.445,13.89h7.5l-6.8-10a8.83,8.83,0,0,0,5.548-8.2,9.584,9.584,0,0,0-9.583-9.584h-8.06Q284.782,276.05,281.754,276.242Z" transform="translate(-281.753 -276.05)" fill="#0057aa"/>
+    </g>
+  </g>
 </svg>
