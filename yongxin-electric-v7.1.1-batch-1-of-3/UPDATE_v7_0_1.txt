@@ -1,8 +1,0 @@
-永信電料行網站 v7.0.1 修正內容
-
-1. 修正每日一則文章頁 Hero 標題在淺色區域看不清楚。
-2. 修正文章底部「聯絡與詢價資料」按鈕白底白字。
-3. 移除未經確認的兩篇預告文章及空分類按鈕。
-
-GitHub 建議 Commit message：
-Fix article visibility and remove unconfirmed placeholders
