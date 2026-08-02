@@ -1,0 +1,3 @@
+永信電料行網站 v7.2.0
+新增 KSS CV-100、CV-150、CV-180、CV-200 白色尼龍束帶商品頁與分類入口。
+本版適合使用 GitHub Desktop 直接覆蓋、Commit 並 Push。
