@@ -1,0 +1,8 @@
+永信電料行網站 v7.2.1
+
+修正項目：
+1. 修正頁尾 Logo 顯示成白色方塊。
+2. 將 assets/logo.png 改為透明背景。
+3. 更新 README.md 與 CHANGELOG.md。
+
+GitHub Desktop：覆蓋檔案後 Commit to main，再 Push origin。
