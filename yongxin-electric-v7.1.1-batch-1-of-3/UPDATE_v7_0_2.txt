@@ -1,0 +1,9 @@
+永信電料行網站 v7.0.2 修正內容
+
+1. 修正常見品牌頁的美國電工 AMERICAN DENKI Logo 無法顯示。
+2. 改用正確 PNG 檔案，並同步修正首頁品牌區。
+
+原因：原先上傳檔案內容實際為 PNG，但副檔名為 .svg，GitHub Pages 以 SVG 類型回傳後瀏覽器無法解析。
+
+GitHub 建議 Commit message：
+Fix American Denki brand logo
