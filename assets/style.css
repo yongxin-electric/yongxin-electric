@@ -463,3 +463,11 @@ img{display:block;max-width:100%}
 @media(max-width:1180px){.pro-brand div{display:none}.pro-menu{gap:10px;font-size:13px}}
 @media(max-width:1020px){.pro-menu{position:absolute;top:84px;left:0;right:0;display:none;flex-direction:column;align-items:stretch;background:#fff;padding:18px 24px;border-bottom:1px solid #dfe5e7;z-index:20}.pro-menu.open{display:flex}.pro-menu a{padding:9px 0;border-bottom:0}.pro-menu .quote-btn{text-align:center}.pro-header .menu-btn{display:block}.home-hub-grid,.knowledge-grid{grid-template-columns:1fr 1fr}.article-layout{grid-template-columns:1fr}.article-sidebar{position:static;grid-template-columns:1fr 1fr}}
 @media(max-width:720px){.quick-grid,.home-hub-grid,.knowledge-grid,.case-category-grid,.article-compare,.check-flow{grid-template-columns:1fr}.knowledge-toolbar{align-items:stretch;flex-direction:column}.knowledge-categories{width:100%}.article-product-card{grid-template-columns:1fr}.technical-article{padding:22px}.article-sidebar{grid-template-columns:1fr}.case-submit{align-items:flex-start;flex-direction:column}.model-group-head{align-items:flex-start;flex-direction:column;gap:6px}}
+
+
+/* v7.0.1 article visibility and confirmed-content fix */
+.inner-v50.article-page .article-hero{background:linear-gradient(135deg,#073d34 0%,#0f5c46 72%,#176f52 100%)}
+.inner-v50.article-page .article-hero:after{right:0;width:42%;background:radial-gradient(circle at center,rgba(200,235,161,.10),transparent 68%)}
+.article-company-note .btn.secondary{background:#fff;color:#0f5c3b;border-color:#fff}
+.article-company-note .btn.secondary:hover{background:#edf7f1;color:#0b4e34;border-color:#edf7f1}
+@media(max-width:900px){.inner-v50.article-page .article-hero{background:linear-gradient(135deg,#073d34,#0f5c46)}}
