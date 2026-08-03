@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v7.9.3
+- 累積納入 v7.9.2：士林 BH 分類頁改為與 BHA 相同的整張卡片／照片可點擊版型。
+- 士林 BH 分類封面統一使用 `image-01.jpg` 正面角度。
+- `category-fuji-illuminated-pushbuttons.html` 改為 BHA 式商品卡，共 3 個商品。
+- `category-gulf-motor-capacitors.html` 改為 BHA 式商品卡，共 13 個商品。
+- `category-kss-cable-ties.html` 改為 BHA 式商品卡，共 14 個商品。
+- `category-qdq-fuses.html` 改為 BHA 式商品卡，共 16 個商品。
+- 每張商品卡均可從照片、文字或空白區域直接進入商品詳細頁。
+
 ## v7.9.1
 - 新增技術文章 `article-pt100-k-thermocouple-mismatch.html`，作為每日一則 #002。
 - 文章說明 PT100 與 K 型熱電偶的訊號原理、接線、輸入設定與故障排查順序。
