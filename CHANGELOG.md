@@ -1,3 +1,7 @@
+## v7.7.4
+- 移除 `category-protection.html` 中的「每日一則」技術文章卡片。
+- 保留 `article-elcb-high-humidity.html` 與技術專欄頁入口。
+
 # CHANGELOG
 
 ## v7.7.3
