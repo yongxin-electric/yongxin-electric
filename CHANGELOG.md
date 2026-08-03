@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v7.9.5
+- 新增士林電機 MSO-P 系列電磁開關分類頁 `category-shihlin-magnetic-starters.html`，放入「自動控制元件」。
+- 新增 14 個 MSO-P 商品頁與 14 個對應商品照片資料夾。
+- 依資料夾名稱與商品照片整理完整型號、附 OL、容量與電流標示、控制電壓及可確認的 2a2b 標示。
+- 原始共 80 張照片；發現 MSO-P35T 7.5HP／21A 資料夾有 3 張與 10HP／28A 資料夾完全相同，為避免規格混淆，7.5HP／21A 頁面僅使用其 1 張獨立照片；網站實際採用 77 張照片。
+- 所有新增商品照片均套用淡綠灰、低透明度、斜向重複的「永信電料行」浮水印。
+- 更新 `category-automation.html`、`products.html`、`category-shihlin-contactors.html`、`brand-shihlin-electric.html` 與 `brands.html` 的入口、數量及導流。
+
 ## v7.9.4
 - 依最新 BH 封面規則，調整 9 個士林 BH 商品頁主圖與分類頁封面，統一改用前斜角本體照片。
 - 已調整型號：BH 2P 10A、20A、30A、40A、50A；BH 3P 20A、30A、40A、50A。
