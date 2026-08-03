@@ -1,8 +1,12 @@
-## v7.7.4
-- 移除 `category-protection.html` 中的「每日一則」技術文章卡片。
-- 保留 `article-elcb-high-humidity.html` 與技術專欄頁入口。
-
 # CHANGELOG
+
+## v7.8.0
+- 新增「電源與變壓器」分類頁 `category-power-supplies.html`。
+- 新增「明緯電源供應器」系列頁 `category-mean-well-power-supplies.html`。
+- 新增 14 個明緯 MEAN WELL 電源供應器商品頁與對應商品照片資料夾。
+- 共整理 57 張商品照片，並依規則套用永信電料行淡綠灰斜向浮水印。
+- 商品主圖優先採用前斜角照片；若該型號沒有前斜角照片，則改用正面照片。
+- 更新 `products.html`，將「電源與變壓器」改為已建立分類入口卡片。
 
 ## v7.7.3
 - 累積修正商品總覽頁，移除士林 BH 無熔絲斷路器的重複外層卡片。
