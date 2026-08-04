@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v7.9.6
+- 移除 `products.html` 中重複的「僑電 QDQ 保險絲」頂層分類卡。
+- 保留 `category-protection.html` 中的 QDQ 保險絲分類卡與側欄入口，維持正確分類層級。
+- QDQ 品牌索引、商品分類頁與 16 個既有品項頁均未刪除。
+
 ## v7.9.5
 - 新增士林電機 MSO-P 系列電磁開關分類頁 `category-shihlin-magnetic-starters.html`，放入「自動控制元件」。
 - 新增 14 個 MSO-P 商品頁與 14 個對應商品照片資料夾。
