@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v7.9.7
+- 新增技術文章 `article-magnetic-contactor-contact-deterioration.html`，作為每日一則 #003。
+- 文章整理電磁接觸器主接點積碳、氧化、燒蝕、線圈電壓異常、三相電流不平衡與積熱電驛核對方向。
+- `technical.html` 新增「馬達控制」分類與文章卡片。
+- `index.html` 最新技術文章入口更新為每日一則 #003。
+- 校正原稿中的品牌排名與誇大描述，並移除未確認的庫存、服務範圍、客製調貨及當天送達宣稱。
+
 ## v7.9.6
 - 移除 `products.html` 中重複的「僑電 QDQ 保險絲」頂層分類卡。
 - 保留 `category-protection.html` 中的 QDQ 保險絲分類卡與側欄入口，維持正確分類層級。
