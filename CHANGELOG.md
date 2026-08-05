@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v7.9.9
+- 依使用者確認資料，補正士林 BH 3P 32A 的 Icu 為 5 kA（AC 220V）。
+- 同步更新 BH 3P 32A 商品頁的摘要規格、銘牌資料表、側欄與核對提醒。
+- `category-shihlin-bh-breakers.html` 的 BH 3P 32A 商品卡與系列說明同步更新。
+- BH 系列目前 15 個型號均已標示 Icu 5 kA（AC 220V）。
+
 ## v7.9.8
 - 士林 BH 系列 15 個商品頁的摘要規格、銘牌資料表與側欄新增 Icu 欄位。
 - `category-shihlin-bh-breakers.html` 的 15 張商品卡同步新增 Icu，讓客戶進入商品頁前即可核對。
