@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v7.10.1
+- `brands.html` 的台式品牌區新增進聯工業 DECA 品牌卡。
+- 新增品牌 Logo 檔案 `assets/brand-logos/deca.png`，使用使用者提供的透明 PNG。
+- DECA 依英文品牌名稱 A–Z 排列於 CHAO TAI 與 DELTA 之間。
+- 目前未建立 DECA 商品頁，品牌卡僅用於品牌辨識，不表示代理或授權關係。
+
 ## v7.10.0
 - 新增技術文章 `article-start-button-immediate-trip-control-circuit.html`，作為每日一則 #004。
 - 文章說明機台按下啟動後立即跳脫時，如何區分控制迴路與主迴路，並檢查按鈕接點、接觸器線圈、自保持配線、控制變壓器與負載側。
