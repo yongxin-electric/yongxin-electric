@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v7.13.1
+- 首頁 Hero 區新增明顯的商品型號搜尋欄位。
+- 搜尋表單直接導向 products.html?q=關鍵字，沿用 v7.13.0 的全站商品搜尋索引。
+- 支援桌面與手機版排版。
+
 ## v7.13.0
 - `products.html` 新增商品關鍵字搜尋介面，可依品牌、完整型號、系列、商品類型與已確認規格即時搜尋。
 - 新增 `assets/product-search-index.js`，由目前 172 個 `product-*.html` 商品頁建立靜態搜尋索引；新增 `assets/product-search.js` 負責比對、排序與結果顯示。

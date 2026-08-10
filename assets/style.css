@@ -543,3 +543,15 @@ img{display:block;max-width:100%}
 .product-search-empty p{max-width:650px;margin:7px auto 15px;color:#68756f;font-size:14px;line-height:1.7}
 @media(max-width:980px){.product-search-results{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:680px){.product-search-section{padding-top:22px}.product-search-panel{padding:20px}.product-search-head{display:block}.product-search-count{display:inline-flex;margin-top:12px}.product-search-head h2{font-size:26px}.product-search-box{min-height:54px}.product-search-icon{flex-basis:42px;font-size:24px}.product-search-box input{font-size:15px}.product-search-results{grid-template-columns:1fr}.product-search-result{grid-template-columns:120px 1fr;grid-template-rows:auto}.product-search-result-image{min-height:180px}.product-search-result-body h3{font-size:19px}.product-search-result-body dl div{display:block}.product-search-result-body dd{text-align:left;margin-top:1px}}
+
+/* Home product search */
+.home-product-search{max-width:780px;margin:28px 0 24px;padding:18px 20px;border:1px solid rgba(255,255,255,.32);border-radius:15px;background:rgba(255,255,255,.94);box-shadow:0 12px 30px rgba(10,45,33,.16);color:#173f30}
+.home-product-search label{display:block;margin-bottom:9px;color:#123e2d;font-size:15px;font-weight:800;letter-spacing:.02em}
+.home-product-search-box{display:flex;align-items:center;overflow:hidden;border:2px solid #c9d9d1;border-radius:11px;background:#fff}
+.home-product-search-box:focus-within{border-color:#1c8a50;box-shadow:0 0 0 4px rgba(28,138,80,.10)}
+.home-product-search-box>span{flex:0 0 44px;text-align:center;color:#147547;font-size:25px}
+.home-product-search-box input{width:100%;min-width:0;padding:14px 10px 14px 0;border:0;outline:0;background:transparent;color:#183e30;font:inherit;font-size:15px}
+.home-product-search-box button{align-self:stretch;padding:0 22px;border:0;background:#1c7048;color:#fff;font:inherit;font-weight:800;cursor:pointer}
+.home-product-search-box button:hover{background:#155d3b}
+.home-product-search>p{margin:9px 0 0!important;color:#5f7168!important;font-size:12px!important;line-height:1.5!important}
+@media(max-width:680px){.home-product-search{margin:22px 0 20px;padding:15px}.home-product-search-box{display:grid;grid-template-columns:42px 1fr}.home-product-search-box button{grid-column:1/-1;min-height:46px}.home-product-search-box input{font-size:14px;padding-right:10px}}
