@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v7.11.3
+- 重整 25 個 FOTEK SSR／HPR 商品詳細頁，將原本偏泛用的「核對重點」改為依實拍銘牌整理的具體規格表。
+- 商品頁新增或明確呈現控制輸入、負載輸出、負載電流、控制端子、負載端子，以及散熱／保險絲等銘牌可確認資訊。
+- `SSR-F25DA` 依銘牌補入 Rated Load Current 16A、內建 25A 半導體保險絲與 φ10×38 資訊；`SSR-K40DA-H` 補入 90～550VAC、40A max.、Ta<50°C 與散熱器結構。
+- 依實拍銘牌更正顯示名稱：`SSR-40LA` 改為 `SCR-40LA`；`SSR-F-25DA` 改為 `SSR-F25DA`。頁面檔名維持既有相對路徑，避免破壞既有連結。
+- `SSR-P03DA`、`SSR-P03DD` 現有照片僅能確認型號與端子配置，因此未自行補寫未確認的電壓／電流規格。
+- `category-fotek-ssr.html` 商品卡同步顯示可確認的輸入、輸出與電流資料。
+
 ## v7.11.2
 - 修正 `category-automation.html`：FOTEK 固態繼電器／SCR 功率控制原先只有左側分類入口與數量說明，主內容的 `subcategory-grid` 漏掉正式卡片。
 - 新增 FOTEK 主分類卡，使用 `SSR-40DA-H` 實拍商品照片與 FOTEK Logo，連結至 `category-fotek-ssr.html`。
