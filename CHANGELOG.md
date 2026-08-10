@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v7.11.1
+- 新增技術文章 `article-ssr-rated-current-heat-dissipation.html`，作為每日一則 #005。
+- 文章以 FOTEK SSR-40DA-H 為例，說明 40A 額定值不能脫離散熱條件理解，並整理輸入／輸出、負載特性、OFF 漏電流及故障排查。
+- 文章使用網站既有 `SSR-40DA-H` 實拍商品照片，技術專欄卡片同步附圖。
+- `technical.html` 新增「固態控制」分類與搜尋關鍵字，`index.html` 最新技術文章入口更新為 #005。
+- SSR-40DA-H 的 4～32VDC、90～480VAC、40A max. 與 DC to AC 型式依 FOTEK 官方資料核對；文章另加入斷電、驗電與散熱高溫安全提醒。
+
 ## v7.11.0
 - 新增陽明電機 FOTEK 固態繼電器／SCR 功率控制分類，共 25 個型號商品頁。
 - 新增 FOTEK 品牌商品索引，常見品牌與首頁 FOTEK Logo 改為可進入商品索引。
