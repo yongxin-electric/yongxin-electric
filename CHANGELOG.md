@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v7.11.2
+- 修正 `category-automation.html`：FOTEK 固態繼電器／SCR 功率控制原先只有左側分類入口與數量說明，主內容的 `subcategory-grid` 漏掉正式卡片。
+- 新增 FOTEK 主分類卡，使用 `SSR-40DA-H` 實拍商品照片與 FOTEK Logo，連結至 `category-fotek-ssr.html`。
+- 自動控制元件頁的描述同步補入固態繼電器 SSR 與 SCR 功率控制，既有 25 個 FOTEK 商品頁未更動。
+
 ## v7.11.1
 - 新增技術文章 `article-ssr-rated-current-heat-dissipation.html`，作為每日一則 #005。
 - 文章以 FOTEK SSR-40DA-H 為例，說明 40A 額定值不能脫離散熱條件理解，並整理輸入／輸出、負載特性、OFF 漏電流及故障排查。
