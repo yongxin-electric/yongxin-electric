@@ -176,3 +176,8 @@
 - 新增僑電企業 QDQ 品牌 Logo。
 - 新增僑電 QDQ 保險絲與保險絲座分類頁。
 - 新增 CT-10、E16 系列保險絲與 CT-FB101LA 保險絲座商品頁。
+
+## v7.14.2（士林電機品牌頁 BH 卡片封面更新）
+- 將 `brand-shihlin-electric.html` 中「BH 無熔絲斷路器」系列卡片所使用的封面圖，更新為使用者指定的新版 2P 10A 商品照片。
+- 更新檔案：`assets/products/shihlin-bh/bh-2p-10a/image-02.jpg`
+- 其餘版面、文案與連結維持不變。
