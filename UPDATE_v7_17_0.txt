@@ -1,0 +1,6 @@
+v7.17.0
+- Added Switches & Operator Devices category.
+- Added NKK Switches brand/category pages and 10 product pages.
+- Added 34 watermarked real product photos.
+- Updated brands/home product links and product search index to 189 items.
+- Added custom-order inquiry rules to PROJECT_RULES.md.
