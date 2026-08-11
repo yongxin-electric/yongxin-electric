@@ -1,0 +1,5 @@
+v7.17.1
+- Added 段位／復歸 tile to all 8 NKK toggle-switch product pages.
+- Fixed: S-302T/S-332 = 固定二段; S-303T/S-333T/S-43 = 固定三段.
+- Momentary: S-308T/S-338T = 三段｜雙復歸; S-39 = 三段｜單復歸.
+- Updated product search index and project rules.
