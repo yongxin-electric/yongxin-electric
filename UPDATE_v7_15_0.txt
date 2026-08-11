@@ -1,0 +1,6 @@
+v7.15.0
+- Add Counters & Length Counters under Automation Components.
+- Add LINE SEIKI brand index, category page, and 5 product pages.
+- Use 18 deduplicated photos from 22 source images, all with Yong Xin watermark.
+- Update automation count to 90 and rebuild product search index to 177 product pages.
+- Always include Suggested Commit Summary in future website update handoffs.

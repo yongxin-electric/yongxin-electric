@@ -181,3 +181,15 @@
 - 將 `brand-shihlin-electric.html` 中「BH 無熔絲斷路器」系列卡片所使用的封面圖，更新為使用者指定的新版 2P 10A 商品照片。
 - 更新檔案：`assets/products/shihlin-bh/bh-2p-10a/image-02.jpg`
 - 其餘版面、文案與連結維持不變。
+
+## v7.15.0（LINE SEIKI 計數器／長度計數器）
+- 新增 `category-counters-length-counters.html`，作為自動控制元件下的計數器品牌層級分類。
+- 新增 `category-line-seiki-counters.html` 與 `brand-line-seiki.html`。
+- 新增 5 個 LINE SEIKI 商品頁：MCF-6X AC110V、MCF-6X AC220V、MCF-6XUL DC24V、MWC 3:1-5(I)、RY1-3:10-5(I) YP。
+- 原始 22 張照片比對後發現 2 組跨 MCF 電壓版本的完全相同照片；為避免混淆，網站實際採用 18 張不重複照片，全部套用永信電料行淡綠灰斜向浮水印。
+- MCF 系列工作電壓只依資料夾與實拍銘牌填寫；MWC／RY 未確認的計數比、尺寸、安裝數值不自行推定。
+- RY1 完整型號以本體銘牌 `RY1-3:10-5(I) YP` 為優先，包裝可見 `RY1-3:10-5(I)`；未使用無法由本體確認的額外字樣。
+- 更新 `category-automation.html`、`products.html`、`brands.html`、`index.html` 與商品搜尋索引。
+- 自動控制元件已建立數量由 85 更新為 90 個型號／規格；全站商品搜尋頁數由 172 增至 177。
+- 固定交付規則新增：網站更新包完成時，回覆必須附「建議 Commit Summary」。
+
