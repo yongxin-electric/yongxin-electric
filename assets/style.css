@@ -564,3 +564,17 @@ img{display:block;max-width:100%}
 
 /* v7.14.1 search no-result inquiry actions */
 .product-search-empty-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.product-search-empty-actions .btn{margin:0}@media(max-width:640px){.product-search-empty-actions{flex-direction:column}.product-search-empty-actions .btn{width:100%;text-align:center}}
+
+
+/* v7.16.0 custom temperature sensors */
+.custom-product-page .product-main-image{background:linear-gradient(180deg,#fff 0%,#f8fbf9 100%)}
+.custom-product-badge{display:inline-flex!important;width:auto;max-width:100%;padding:8px 12px;border:1px solid #cfe0d7;border-radius:999px;background:#fff}
+.custom-product-badge>span{padding:0!important;border:0!important}
+.custom-product-mark{display:inline-flex!important;align-items:center;padding:5px 9px!important;border-radius:999px!important;background:#fff0ca!important;color:#7b5708!important;font-size:11px!important;font-weight:900!important;letter-spacing:.8px}
+.custom-order-alert{border-left-color:#c88a23;background:#fff8e9}
+.custom-spec-table strong{font-weight:700;line-height:1.65}
+.custom-order-catalog-note{border-left-color:#c88a23;background:#fff8e9}
+.custom-order-catalog-note strong{color:#624611}
+.custom-order-catalog-note p{color:#6d6047}
+.custom-temperature-page .subcategory-image img{object-fit:contain;background:#fff}
+@media(max-width:480px){.custom-product-badge{align-items:flex-start!important;border-radius:12px}.custom-product-mark{margin-bottom:4px}}

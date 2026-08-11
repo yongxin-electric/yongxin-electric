@@ -1,0 +1,6 @@
+v7.16.0
+- Added Temperature Control & Measurement category.
+- Added custom temperature probe and custom connection-head temperature sensor product pages.
+- Added watermarked representative product photos and custom specification checklists.
+- Added custom-order notice and no supplier/contract-manufacturer brand exposure.
+- Product search index updated from 177 to 179 entries; products.html stale 172 count corrected to 179.
