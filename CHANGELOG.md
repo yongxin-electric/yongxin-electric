@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v7.20.1
+- 強化 `category-automation.html` 的繼電器入口可見度。
+- 在主內容新增「繼電器品牌快速入口」，直接顯示 IDEC 和泉電氣與 OMRON 歐姆龍兩張品牌卡。
+- IDEC 卡直接連至 `category-idec-relays.html`，使用 RU4S-C-A220 實拍商品主圖與 IDEC Logo；OMRON 卡直接連至 `category-omron-relays.html`。
+- 左側自動控制元件側欄在「繼電器與控制繼電器」下新增 IDEC／OMRON 品牌直達連結。
+- 保留原「繼電器與控制繼電器」總分類卡，維持品牌分層與後續新增其他繼電器品牌的架構。
+
 ## v7.20.0
 - 新增 IDEC 和泉電氣商品分類與品牌索引。
 - 新增 RR3P-UL AC220V、RR3P-UL DC24V、RU2S-C-A220、RU4S-C-A220、RU4S-C-D24 共 5 個繼電器商品頁。
