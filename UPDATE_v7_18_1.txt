@@ -1,0 +1,5 @@
+v7.18.1
+- 新增每日一則技術專欄 #006：溫控器 PV 顯示 LL、HH 或感溫異常的排查。
+- 更新 technical.html 與首頁最新技術文章入口。
+- 技術內容補充感測器斷路、Input Type、Pt100 三線、熱電偶極性、補償導線與高溫配線注意事項。
+- 更新 README.md、CHANGELOG.md、TODO.md、PROJECT_RULES.md。
