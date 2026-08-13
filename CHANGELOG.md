@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v7.20.3
+- 全站商品照片浮水印由高存在感的亮綠版本，調整回較柔和的舊版低干擾斜向重複浮水印。
+- 重新批次更新 `assets/products/` 內 720 張商品照片，降低視覺干擾，避免影響客戶瀏覽舒適度。
+- 新增 `assets/watermarks/yongxin-product-watermark-soft.png` 作為目前正式商品照浮水印來源檔。
+- `PROJECT_RULES.md` 新增強制交付 SOP，固定要求每次修改後提供：更新包 ZIP、完整更新包 ZIP、建議 Commit Summary、下一個新對話的繼承詞語。
+
 ## v7.20.1
 - 強化 `category-automation.html` 的繼電器入口可見度。
 - 在主內容新增「繼電器品牌快速入口」，直接顯示 IDEC 和泉電氣與 OMRON 歐姆龍兩張品牌卡。
