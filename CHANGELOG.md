@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v7.20.9
+- 新增技術專欄：`article-mitsubishi-nv100-spark-trip.html`，整理 Mitsubishi NV100 系列漏電斷路器送電瞬間冒火花並跳脫時的判斷方向。
+- 文章依三菱電機官方低壓斷路器／ELCB 維護資料補上技術參考，區分漏電、短路／過電流與端子／斷路器本體異常。
+- `technical.html` 新增第 8 篇文章並置頂；首頁最新技術文章同步更新。
+- 文章加入相關配電保護商品卡，但明確標示士林 BHA MCB 並非 Mitsubishi NV100 ELCB 的直接替代品，避免造成錯誤替代認知。
+
 ## v7.20.8
 - 新增技術專欄文章：`article-dc24-control-power-instability.html`，主題為 DC 24V 控制電源不穩造成 PLC 重啟、感測器訊號異常與繼電器抖動的排查方向。
 - `technical.html` 新增「控制電源」分類與最新文章卡片；首頁最新技術文章同步更新。
