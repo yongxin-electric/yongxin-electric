@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="DC 24V 控制電源不穩時，PLC 重啟、感測器訊號消失、繼電器抖動與電磁閥動作異常的常見原因與排查方向。" name="description"/><title>DC 24V 控制電源不穩，為什麼會讓 PLC 重啟、感測器亂跳？｜技術專欄｜永信電料行</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="assets/style.css" rel="stylesheet"/><link href="assets/favicon.ico" rel="icon" type="image/x-icon"/><link href="assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/><link href="assets/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/><link href="site.webmanifest" rel="manifest"/><meta content="#294c36" name="theme-color"/></head><body class="inner-v50 article-page"><header class="pro-header"><div class="container pro-nav"><a class="pro-brand" href="index.html"><img alt="永信電料行 Logo" src="assets/logo.png"/><div><strong>永信電料行</strong><span>YONG XIN ELECTRIC MATERIALS</span></div></a><button aria-expanded="false" aria-label="開啟選單" class="menu-btn">☰</button><nav class="nav pro-menu"><a href="index.html">首頁</a><a href="about.html">關於我們</a><a href="products.html">商品分類</a><a href="brands.html">常見品牌</a><a href="services.html">服務項目</a><a href="case-studies.html">服務實績</a><a class="active" href="technical.html">技術專欄</a><a href="contact.html">聯絡我們</a><a class="quote-btn" href="contact.html">詢價洽詢</a></nav></div></header><main>
+<section class="page-hero article-hero"><div class="container"><div class="breadcrumb"><a href="index.html">首頁</a> / <a href="technical.html">技術專欄</a> / 控制電源</div><p class="section-kicker">技術專欄 · 控制電源</p><h1>DC 24V 控制電源不穩，為什麼會讓 PLC 重啟、感測器亂跳？</h1><p>PLC、感測器、繼電器與電磁閥常共用 24VDC 控制電源。當電源、負載、端子或配線開始不穩，現場症狀可能只是偶發重啟、訊號消失或動作異常，不一定會直接變成整台設備完全沒電。</p></div></section>
+<section class="section"><div class="container article-layout"><article class="technical-article">
+<div class="article-meta"><span>發布日期：2026／08／14</span><span>分類：DC 24V、控制電源、PLC、感測器、故障排查</span></div>
+<div class="article-safety"><strong>安全提醒</strong><p>控制箱內可能同時存在市電、馬達回路與 DC 24V 控制回路。若需要帶電量測、拆接端子、絕緣檢查或短路排查，應由具備相關電氣作業能力的人員執行，並依設備安全程序處理，避免觸電、短路或設備損壞。</p></div>
+<p class="article-lead">在自動化機台、控制盤與各類工業設備中，DC 24V 是相當常見的控制電源。PLC、近接開關、光電開關、中間繼電器、電磁閥、HMI 周邊模組及其他控制元件，都可能由同一組 24VDC 電源供應器供電。因此，當控制電源開始出現異常時，現場不一定會「整台完全沒電」，反而常表現成難以追查的偶發故障。</p>
+<h2>先看現場症狀：不一定是 PLC 或感測器本體故障</h2>
+<ul class="article-list"><li>PLC 偶爾重新啟動，過一下又自行恢復。</li><li>近接開關明明有感應，PLC INPUT 卻偶爾消失。</li><li>電磁閥動作瞬間，其他感測器訊號跟著異常。</li><li>中間繼電器出現抖動或反覆吸放。</li><li>機台剛開機正常，運轉一段時間後才開始不穩。</li><li>最近增加新的感測器、繼電器或電磁閥後，設備開始異常。</li><li>某些故障總是在馬達、電磁接觸器或氣動元件動作時發生。</li></ul>
+<p>遇到這些情況，除了 PLC、感測器與繼電器本身，也應把 <strong>DC 24V 電源、負載分配、端子與配線狀況</strong> 一起納入判斷。</p>
+<h2>一、控制電源負載增加，原本容量可能已經不足</h2>
+<p>控制箱最初設計時，24V 電源供應器通常依當時的控制元件負載配置。但設備使用多年後，常會陸續增加近接開關、光電感測器、中間繼電器、電磁閥、PLC I/O 模組、警示燈或蜂鳴器等負載。單一元件耗電量可能不大，但多個負載同時使用時，總電流會累積。</p>
+<p>某些負載在啟動或吸合瞬間也可能需要額外的短時間電流。部分工業電源產品因此設計有 Static Boost、Dynamic Boost 或其他短時間功率保留機制，用來因應較重的啟動負載；是否具備此功能及允許時間，必須依實際電源型號確認。</p>
+<p>如果異常總是在電磁閥動作、多顆繼電器同時吸合、大量感測器一起啟動，或機台進入某一段動作時發生，就值得把 DC 24V 電源容量與瞬間負載列入檢查方向。</p>
+<h2>二、冷機正常、熱機異常，要注意電源供應器與控制箱溫度</h2>
+<p>控制箱若長期處於高溫、通風不良或熱源集中的環境，電源供應器的允許輸出條件可能受到影響。許多交換式電源供應器都有環境溫度與輸出負載的降額條件；實際曲線依品牌、系列、安裝方式與通風條件而不同。</p>
+<p><strong>現場線索：</strong>「早上剛開機都正常，運轉幾個小時後才開始 PLC 重啟。」或「控制箱門打開時比較正常，關起來運轉就容易異常。」這類時間與溫度相關的現象，是很有價值的故障線索。</p>
+<p>現場可一起檢查控制箱內溫度、電源供應器散熱、安裝方向、周圍熱源，以及散熱孔是否被粉塵堵塞。</p>
+<h2>三、24V 有電，不代表負載端一直都有 24V</h2>
+<p>即使電源供應器輸出端量測接近 24VDC，如果控制線距離過長、導線線徑不足、端子鬆動、壓著端子接觸不良、中間經過多段端子台或接點氧化，負載端實際收到的電壓仍可能降低。尤其在負載電流突然增加時，壓降可能更明顯。</p>
+<p>因此排查時不能只看電源供應器本體上的指示燈，也不能只在空載狀態量測輸出端。真正有參考價值的是：<strong>故障發生當下，實際負載端的供電是否仍然穩定。</strong></p>
+<h2>四、端子鬆動，也可能讓整組控制系統變得不穩</h2>
+<p>24VDC 屬於低電壓控制電源，端子接觸不良有時不會立刻留下明顯燒毀痕跡。但螺絲未鎖緊、壓著端子鬆脫、銅絲折損、接觸面氧化或長期振動，都可能讓接觸電阻升高。當負載電流增加時，就可能形成瞬間電壓下降，造成「碰一下線就正常、機台震動一下又出問題」的偶發故障。</p>
+<h2>五、問題也可能來自某一個 24V 負載</h2>
+<p>如果整組 DC 24V 電源出現不穩，也不能只把責任放在電源供應器。電磁閥線圈劣化、中間繼電器線圈異常、感測器內部短路、配線磨破、外部設備誤接或某一支線負載增加，都可能拖低共用電源。</p>
+<p>因此看到 24V 電壓掉下來時，真正需要確認的是：<strong>是電源供應器供不出來，還是某一個負載把整個系統拖下去？</strong> 兩種狀況的處理方向不同。</p>
+<h2>六、為什麼電磁閥一動，PLC 反而重新啟動？</h2>
+<p>假設 PLC、感測器與電磁閥全部共用同一組 DC 24V 電源，當電磁閥吸合時，如果瞬間電流增加，而電源供應器、配線或端子無法維持穩定供電，整條 24V 母線電壓就可能短暫下降。這時候電磁閥可能只是吸合變慢，繼電器可能抖動，感測器可能短暫失去訊號，而 PLC 則可能因供電低於該型號允許範圍而重新啟動。</p>
+<p>不同設備對 24VDC 的允許工作範圍不完全相同，所以不能只用「電表還量得到某個電壓」判斷是否正常。必須回到該 PLC、模組、感測器或控制器的完整型號規格，並觀察故障發生時的瞬間狀態。</p>
+<h2>七、控制電源不是瓦數越大就一定越好</h2>
+<p>發現 24V 電源疑似不足時，直接把 5A 電源換成 10A 或更大容量，不一定能解決問題。如果真正原因是支線短路、線圈劣化、導線線徑不足、端子鬆動或支路保護配置不當，單純提高供電能力仍可能留下原本的故障。</p>
+<p>控制電源選型除了容量之外，還應一併確認：</p>
+<ul class="article-list"><li>INPUT 輸入電壓。</li><li>OUTPUT 輸出電壓與額定輸出電流。</li><li>環境溫度與散熱條件。</li><li>安裝方式與周圍空間。</li><li>瞬間負載能力。</li><li>支路保護方式。</li><li>實際配線容量與端子條件。</li></ul>
+<p>不同品牌與系列的過載、短路保護及瞬間輸出特性可能不同，不能只看外觀與「24V 幾安培」。</p>
+<h2>八、現場可以先觀察哪些線索？</h2>
+<ul class="article-list"><li>異常是否發生在特定電磁閥或繼電器動作瞬間？</li><li>是冷機就異常，還是運轉一段時間後才發作？</li><li>最近是否增加新的 24V 負載？</li><li>是否曾更換 PLC、感測器或電磁閥？</li><li>電源供應器是否異常發熱？</li><li>端子台是否有變色、鬆動或氧化？</li><li>是單一元件異常，還是多個 24V 元件同時出問題？</li><li>控制箱開門與關門運轉時，故障頻率是否不同？</li></ul>
+<h2>九、規格核對時，建議先準備這些資料</h2>
+<ul class="article-list"><li>DC 電源供應器品牌與完整型號。</li><li>INPUT／OUTPUT 銘牌規格。</li><li>控制箱內安裝位置。</li><li>電源供應器輸出端接線狀況。</li><li>目前使用的 PLC、感測器及主要 24V 負載。</li><li>異常發生時哪些元件正在動作。</li><li>原設備近期是否有新增或更換控制元件。</li></ul>
+<p>若能同時提供原本的電源供應器舊品或清楚銘牌照片，通常更容易核對電壓、電流、尺寸與安裝方式。</p>
+<div class="article-company-note"><h2>PLC 重啟，不一定就是 PLC 壞掉</h2><p>當自動化設備出現偶發重啟、感測訊號消失或繼電器抖動時，真正的問題可能涉及電源供應器、負載、配線、端子、溫度與控制元件之間的整體關係。先確認「什麼時候發生、哪些負載正在動作、最近改過什麼」，通常比直接更換 PLC、感測器或電源供應器更有助於縮小故障範圍。</p><p>永信電料行可依舊品型號、輸入輸出規格、控制元件使用需求及現場照片，協助縮小 DC 24V 電源供應器與相關工業控制元件的規格範圍。實際適用規格仍應依設備原始設計、負載條件及原廠技術資料確認。</p><div class="article-actions"><a class="btn primary" href="tel:0422113705">立即致電 04-2211-3705</a><a class="btn secondary" href="contact.html">聯絡與詢價資料</a></div></div>
+<section class="article-related-products"><p class="section-kicker">RELATED PRODUCTS</p><h2>網站相關商品</h2>
+<a class="article-product-card" href="product-mean-well-ndr-480-24.html"><img alt="MEAN WELL NDR-480-24 軌道式電源供應器" src="assets/products/mean-well-power-supplies/ndr-480-24/image-01.jpg"/><div><span>明緯 MEAN WELL</span><h3>NDR-480-24 軌道式電源供應器</h3><p>網站已建立的 DC24V DIN Rail 電源商品頁；實際替換仍須核對輸入電源、輸出電流、尺寸與安裝條件。</p><b>查看商品資料 →</b></div></a>
+<a class="article-product-card" href="product-mean-well-lrs-100-24.html"><img alt="MEAN WELL LRS-100-24 電源供應器" src="assets/products/mean-well-power-supplies/lrs-100-24/image-01.jpg"/><div><span>明緯 MEAN WELL</span><h3>LRS-100-24 交換式電源供應器</h3><p>DC24V 控制電源商品頁；選型時需依實際總負載、安裝環境與輸入條件核對。</p><b>查看商品資料 →</b></div></a>
+<a class="article-product-card" href="product-mean-well-wdr-60-24.html"><img alt="MEAN WELL WDR-60-24 軌道式電源供應器" src="assets/products/mean-well-power-supplies/wdr-60-24/image-01.jpg"/><div><span>明緯 MEAN WELL</span><h3>WDR-60-24 DIN Rail 電源供應器</h3><p>窄型軌道式 DC24V 電源商品頁；不可只依瓦數或外觀直接替換。</p><b>查看商品資料 →</b></div></a>
+</section>
+<section class="article-references"><h2>技術參考</h2><p>以下原廠資料用於核對瞬間負載能力、長距離配線壓降、環境溫度降額及 PLC／控制裝置供電規格概念。實際維修仍應以現場完整型號的最新原廠文件為準。</p><ul>
+<li><a href="https://www.phoenixcontact.com/en-pc/products/power-supplies/power-supplies-with-maximum-functionality" rel="noopener" target="_blank">Phoenix Contact｜QUINT POWER Static / Dynamic Boost</a></li>
+<li><a href="https://www.phoenixcontact.com/en-us/us-lp-ip67power" rel="noopener" target="_blank">Phoenix Contact｜長距離配線與 Voltage Drop 說明</a></li>
+<li><a href="https://www.meanwell.com/Upload/PDF/Enclosed_Type_EN.pdf" rel="noopener" target="_blank">MEAN WELL｜Enclosed Type Power Supply Installation Manual</a></li>
+<li><a href="https://landing.deltaww.com/IA/downloadcenter/catalogue/3.Control/DVP/DELTA_IA-PLC_DVP_TP_C_EN_20220906.pdf" rel="noopener" target="_blank">DELTA｜DVP Series PLC Catalog</a></li>
+</ul></section>
+<div class="article-tags"><span>#永信電料行</span><span>#技術專欄</span><span>#DC24V</span><span>#控制電源</span><span>#PLC</span><span>#感測器</span><span>#電磁閥</span><span>#電源供應器</span><span>#台中電料行</span></div>
+</article><aside class="article-sidebar"><div class="product-side-card"><span class="article-series-label">技術專欄</span><h3>本篇重點</h3><ul><li>負載增加與瞬間電流</li><li>高溫與電源降額</li><li>長距離配線與壓降</li><li>端子接觸不良與故障支路</li><li>先量故障當下的負載端電壓</li></ul></div><div class="product-side-card inquiry-side"><span>NEED HELP?</span><h3>拍下電源銘牌與控制箱<br/>協助核對規格</h3><p>提供 INPUT／OUTPUT、主要 24V 負載、接線與異常發生時機。</p><a class="btn primary" href="contact.html">前往詢價</a></div><div class="product-side-card"><span class="article-series-label">相關商品</span><h3>明緯電源供應器</h3><p>查看網站已建立的 LRS、NDR、WDR 等電源商品。</p><a class="mini-link" href="category-mean-well-power-supplies.html">查看明緯電源系列 →</a></div></aside></div></section>
+</main><footer class="pro-footer"><div class="container pro-footer-grid"><div class="footer-brand"><img alt="永信電料行" src="assets/logo.png"/><div><strong>永信電料行</strong><span>YONG XIN ELECTRIC MATERIALS</span></div></div><div class="footer-contact"><span>台中市東區旱溪五街36號</span><span>電話 04-2211-3705</span><span>傳真 04-2213-7671</span></div><div class="footer-copy">© <span id="year"></span> 永信電料行</div></div></footer><script src="assets/script.js"></script></body></html>
