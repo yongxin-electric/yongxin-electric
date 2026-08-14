@@ -1,3 +1,17 @@
+## v7.21.0 (2026-08-14)
+- 新增三菱電機 Mitsubishi Electric NV100-KC 漏電斷路器商品線：
+  - `category-mitsubishi-elcb.html`
+  - `product-mitsubishi-nv100-kc-3p-75a.html`
+  - `product-mitsubishi-nv100-kc-3p-100a.html`
+  - `brand-mitsubishi-electric.html`
+- 使用你提供的商品照片建立網站版浮水印圖檔，並整理 NV100-KC 75A / 100A 的實物銘牌重點。
+- 參考三菱電機官方 NV100-KC 產品資料，補充系列共通規格（3P3E、100-200VAC、100mA、Icu/Ics、Uimp、Cat.A 等）。
+- 更新 `category-protection.html`，將原本「漏電保護裝置」預告卡改為可點擊的 Mitsubishi ELCB 分類卡。
+- 更新 `products.html` 的「配電與保護元件」計數為 60 個規格／品項。
+- 更新 `brands.html`，讓三菱電機品牌卡可直接進入品牌商品索引。
+- 更新 `article-mitsubishi-nv100-spark-trip.html` 與 `article-elcb-high-humidity.html`，在文章下方加入對應的 Mitsubishi NV100-KC 商品卡。
+- 新增商品頁與技術文章的雙向關聯：本次 Mitsubishi 商品頁已加入相關技術文章卡，作為後續新增商品時的標準做法。
+
 # CHANGELOG
 
 ## v7.20.9
