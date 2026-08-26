@@ -1,3 +1,13 @@
+## v7.21.3 (2026-08-26)
+- 新增 Panasonic 國際牌 TB 系列 24 小時定時開關，共 6 個完整型號商品頁：TB356NT6、TB358NT6、TB36809NT6、TB38909NT7、TB39909NT7、TB39909NT7S3。
+- 新增 `category-panasonic-time-switches.html` 型號比較頁，重點區分電源、AC／Quartz 驅動、停電補償、電壓／無電壓輸出與 1a／1c 接點。
+- 新增 `brand-panasonic.html`，並更新常見品牌 Panasonic 卡片。
+- `category-automation.html` 原「定時器（後續建置）」改為 Panasonic TB 系列入口；自動控制元件計數更新為 96 個型號／規格。
+- 商品搜尋索引由 203 筆增至 209 筆。
+- Panasonic 商品照片僅使用實品照片；外盒中含進口商／供應鏈資訊的標籤與網路／原廠示意圖不公開。
+- 新增供應鏈資訊公開前檢查 SOP，以及「完整型號／尾碼必須精確核對」規則。
+- TB39909NT7S3 的 S3 尾碼保留獨立型號；因可取得的原廠公開資料不足以證實 S3 與 NT7 完全等同，網站不宣稱可直接互換。
+
 ## v7.21.2 (2026-08-16)
 - 新增士林電機 SHIHLIN BLU 2P 50A 無熔絲斷路器商品頁與 BLU 系列分類頁。
 - 依實物銘牌整理 BLU 2P 50AF、AC220V 60Hz、Icu 10kA、Ics 5kA、CNS 14816-2、Cat.A、40°C、Made in Taiwan 等資料。
