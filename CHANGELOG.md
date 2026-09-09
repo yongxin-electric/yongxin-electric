@@ -1,3 +1,8 @@
+## v7.21.6 (2026-09-09)
+- Removed the duplicate relay brand quick-entry panel from `category-automation.html`.
+- Moved Panasonic TB time switches into the normal timer category card and linked the sidebar timer entry to the Panasonic timer category.
+- Kept IDEC and OMRON access under the existing relay category to avoid duplicate navigation on the same page.
+
 # CHANGELOG
 
 ## v7.21.5 (2026-09-09)
