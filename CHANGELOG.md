@@ -1,3 +1,14 @@
+## v7.21.7 (2026-09-10)
+- 啟用 `products.html` 的「感測與檢出元件」分類，新增 `category-sensors-detection.html`。
+- 新增陽明電機 FOTEK 不鏽鋼浮球開關分類與 2 個商品頁：TRFS-4-2 L 型側裝式、MR1075-S 直立式；商品總數 224 → 226。
+- 本批 4 張使用者提供照片完成供應鏈／隱私檢查並套用永信低干擾浮水印；未使用外部商品圖片。
+- FOTEK 現行官方網站可確認液位感測器產品類別，但未查得可直接對應本批完整型號的現行規格頁；因此未自行套用其他廠牌／相近外型的接點容量、SUS 等級、耐溫、牙規等數值。
+- `brand-fotek.html` 與 `brands.html` 更新為 27 個 FOTEK 商品頁、2 個系列分類。
+- 新增技術文章 `article-kone-siemens-abb-contactor-cross-brand.html`：以 KONE 通力電梯 Siemens → ABB 接觸器替換經驗，說明 OEM 設備替代需核對線圈架構、NO／NC、回授／互鎖與原廠料號。
+- 文章採中性描述：保留第一次 NO／NC 對應差異、後續工程人員重新查線仍未恢復等已知經過；不把問題單一歸因於接線、不判定 ABB 故障、不宣稱所有 KONE 都只能使用 Siemens，也不推定最終維修型號。
+- `PROJECT_RULES.md` 新增「OEM／安全關聯設備替代料 SOP」與「液位感測器／不鏽鋼浮球開關 SOP」。
+- 商品搜尋索引更新至 226 個商品頁；技術專欄更新至 9 篇。
+
 ## v7.21.6 (2026-09-09)
 - Removed the duplicate relay brand quick-entry panel from `category-automation.html`.
 - Moved Panasonic TB time switches into the normal timer category card and linked the sidebar timer entry to the Panasonic timer category.
