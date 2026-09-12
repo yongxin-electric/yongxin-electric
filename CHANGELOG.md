@@ -1,4 +1,9 @@
 ## v7.21.8 (2026-09-12)
+
+## v7.21.9 - 2026-09-12
+- Unified Fuji Electric contactor, magnetic starter, and industrial relay catalog card layouts with the Shihlin contactor catalog style.
+- Limited catalog product image areas to the existing fixed-height card layout so tall contactor, starter, and relay photos no longer dominate the page.
+- Kept Fuji model-order and coil-architecture warnings unchanged.
 - 新增富士電機 FUJI ELECTRIC 接觸器、磁力起動器與工業繼電器共 21 個商品頁；商品總數 226 → 247。
 - 新增 `category-fuji-contactors.html`（13 頁）、`category-fuji-magnetic-starters.html`（5 頁）、`category-fuji-industrial-relays.html`（3 頁），並更新富士品牌頁、自動控制元件與繼電器分類入口。
 - 依 Fuji Electric 官方世代資料明確區分 `SC-1N ≠ SC-N1`、`SW-1N ≠ SW-N1`；完整型號字母／數字／連字號與排列順序不得重排或正規化。
