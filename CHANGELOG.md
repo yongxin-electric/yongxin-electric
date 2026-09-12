@@ -1,3 +1,13 @@
+## v7.21.8 (2026-09-12)
+- 新增富士電機 FUJI ELECTRIC 接觸器、磁力起動器與工業繼電器共 21 個商品頁；商品總數 226 → 247。
+- 新增 `category-fuji-contactors.html`（13 頁）、`category-fuji-magnetic-starters.html`（5 頁）、`category-fuji-industrial-relays.html`（3 頁），並更新富士品牌頁、自動控制元件與繼電器分類入口。
+- 依 Fuji Electric 官方世代資料明確區分 `SC-1N ≠ SC-N1`、`SW-1N ≠ SW-N1`；完整型號字母／數字／連字號與排列順序不得重排或正規化。
+- 線圈架構依原廠資料補強：標準 SC-N1～SC-N5A 不採 SUPER MAGNET；SC-N6 以上採 IC-controlled SUPER MAGNET、AC input / DC operated 概念，可接受 AC 或 DC 輸入；本批 SC-N7 另以實物銘牌記錄實際控制電壓範圍。
+- 新增技術文章 `article-contactor-coil-architecture-abb-siemens-fuji.html`，比較 ABB AF 電子線圈介面、Siemens SIRIUS 完整尾碼 AC/DC 差異與 Fuji SC／SUPER MAGNET，強調線圈電壓只是替代判斷的一部分。
+- 對疑似來自網路／外部網站的 SC-0、SC-N1、單獨 SC-N2 AC110V／AC220V、SRC50-2F 圖片不加永信浮水印、不作為網站實拍；商品頁先使用自製占位圖，待有權利明確的實拍照再補。
+- 其餘使用者提供的實拍照片完成供應鏈／隱私檢查並套用永信低干擾浮水印。
+- `PROJECT_RULES.md` 新增富士舊新型號與線圈辨識 SOP；商品搜尋索引更新至 247 個商品頁；技術專欄更新至 10 篇。
+
 ## v7.21.7 (2026-09-10)
 - 啟用 `products.html` 的「感測與檢出元件」分類，新增 `category-sensors-detection.html`。
 - 新增陽明電機 FOTEK 不鏽鋼浮球開關分類與 2 個商品頁：TRFS-4-2 L 型側裝式、MR1075-S 直立式；商品總數 224 → 226。
