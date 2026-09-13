@@ -1,3 +1,11 @@
+## v7.21.16 (2026-09-13)
+- 新增技術專欄 #011 `article-contactor-ac1-ac3-utilization-category.html`，說明電磁接觸器 AC-1、AC-3、AC-4、AC-6a、AC-6b 使用類別與負載差異。
+- Schneider LC1D18 範例依官方資料列示 AC-3 18A、AC-1 32A，並說明不同工作電壓下的馬達 kW 額定不可直接混用。
+- 加入 ABB IEC 使用類別、Schneider LC1D18 與 Siemens SIRIUS／3RT26 官方參考連結。
+- `technical.html` 新文章置頂，首頁最新技術文章同步更新為 #011。
+- 文章加入 Fuji SC-N4、士林 S-P21、TECO CN-100 商品連結；三個代表商品頁同步加入本篇技術文章，完成雙向關聯。
+- 技術專欄總數 10 → 11；商品頁總數維持 247。
+
 ## v7.21.15 (2026-09-13)
 - 修正 `product-fuji-sc-1n-ac220v.html`：重新檢視照片內容後，確認真正正面照為 `image-01.jpg`，因此將商品頁封面主圖改回正面照。
 - 重排 `SC-1N AC220V｜舊版` 的縮圖順序與標示，移除重複的「正面主圖」標語，只保留第一張為正面主圖，其餘恢復為照片 2～5。
