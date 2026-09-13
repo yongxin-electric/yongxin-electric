@@ -1,0 +1,4 @@
+v7.21.14
+- Fixed requested Fuji cover-photo order.
+- Synced FMC-0 category cover with product page.
+- Hardened gallery script and cache-busted script include.

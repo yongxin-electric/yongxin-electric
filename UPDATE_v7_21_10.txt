@@ -1,0 +1,4 @@
+v7.21.10
+- Fixed sitewide product gallery thumbnail switching.
+- Updated requested Fuji product page cover photos and missing galleries.
+- Renamed SRCa3631-2 page title to 白頭 舊型.

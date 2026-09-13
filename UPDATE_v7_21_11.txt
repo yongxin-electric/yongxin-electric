@@ -1,0 +1,4 @@
+v7.21.11
+- Synced Fuji 13 category-card covers with actual product-page cover images.
+- Fixed 7 Shihlin S-P product pages to use front-view primary images.
+- Synced product-search-index cover images for affected items.

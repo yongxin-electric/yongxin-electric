@@ -1,3 +1,9 @@
+## v7.21.14 (2026-09-13)
+- 依使用者指示修正 `SC-1N AC220V` 商品頁封面圖，改用目前頁面中的「照片 3」作為主圖，並同步 `category-fuji-contactors.html` 與 `assets/product-search-index.js`。
+- 再次確認並重寫 `SC-N2S AC220V`、`SC-N4 AC220V`、`SC-N5A AC110V`、`SC-N7｜DC100–120V / AC100–127V` 商品頁主圖與縮圖順序，固定以正面照為封面。
+- 再次同步 `FMC-0 AC220V` 商品頁主圖、分類卡封面與搜尋索引封面，避免分類頁與商品頁顯示不同照片。
+- 強化 `assets/script.js` 的商品相簿切換邏輯，加入 `preventDefault()`、`touchend` 支援與更穩定的主圖切換函式；所有 HTML 之 script 連結統一改為 `assets/script.js?v=7.21.14`，降低瀏覽器快取導致照片無法切換的情況。
+
 ## v7.21.13 (2026-09-13)
 - 重新固定 7 個 Fuji Electric 接觸器商品頁的正面主圖：SC-1N、SC-N2S、SC-N4、SC-N5A AC110V、SC-N5A AC220V、SC-N7 DC100–120V / AC100–127V、SC-N7 DC200–240V / AC200–250V。
 - `SC-N5A AC220V` 與 `SC-N7 DC200–240V / AC200–250V` 各新增 1 張使用者提供的正面照，保留原 5 張照片，因此兩頁各為 6 張相簿；新正面照套用既定永信低干擾浮水印。
