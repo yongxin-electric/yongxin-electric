@@ -1,0 +1,4 @@
+v7.21.15
+- Fixed SC-1N front cover selection by actual photo content.
+- Removed duplicate front-cover thumbnail label.
+- Synced category card and search cover.

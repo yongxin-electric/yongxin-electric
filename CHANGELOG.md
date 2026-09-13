@@ -1,3 +1,8 @@
+## v7.21.15 (2026-09-13)
+- 修正 `product-fuji-sc-1n-ac220v.html`：重新檢視照片內容後，確認真正正面照為 `image-01.jpg`，因此將商品頁封面主圖改回正面照。
+- 重排 `SC-1N AC220V｜舊版` 的縮圖順序與標示，移除重複的「正面主圖」標語，只保留第一張為正面主圖，其餘恢復為照片 2～5。
+- 同步更新 `category-fuji-contactors.html` 與 `assets/product-search-index.js` 的 SC-1N 封面圖，避免分類卡與商品頁再次不一致。
+
 ## v7.21.14 (2026-09-13)
 - 依使用者指示修正 `SC-1N AC220V` 商品頁封面圖，改用目前頁面中的「照片 3」作為主圖，並同步 `category-fuji-contactors.html` 與 `assets/product-search-index.js`。
 - 再次確認並重寫 `SC-N2S AC220V`、`SC-N4 AC220V`、`SC-N5A AC110V`、`SC-N7｜DC100–120V / AC100–127V` 商品頁主圖與縮圖順序，固定以正面照為封面。
