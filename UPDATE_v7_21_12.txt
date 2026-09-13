@@ -1,0 +1,6 @@
+v7.21.12
+- Audited all category product-card images and all 247 product pages.
+- Improved four Fuji reference-image covers with excessive whitespace.
+- Restored SC-N5A AC220V to the original user-supplied product photo.
+- Fixed 24 product-page breadcrumb identity mismatches.
+- Verified product titles, model fields, and the 247-item search index remain consistent.
