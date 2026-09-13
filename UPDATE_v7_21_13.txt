@@ -1,0 +1,4 @@
+v7.21.13
+- Set requested Fuji contactor cover images to front views.
+- Added the user-supplied SC-N5A and SC-N7 front photos as sixth gallery images.
+- Synced category/search covers and removed the five-photo gallery cap in PROJECT_RULES.
