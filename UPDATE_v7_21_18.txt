@@ -1,0 +1,3 @@
+v7.21.18
+- Fixed Fuji brand product count from 3 to 24.
+- Audited all linked brand product counts; all others match.
