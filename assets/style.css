@@ -598,3 +598,9 @@ img{display:block;max-width:100%}
 .relay-brand-card{background:#fff;border-color:#bed8c7}
 .brand-direct-label{display:inline-flex;margin-bottom:9px;padding:4px 9px;border-radius:999px;background:#e7f2ea;color:#17623f;font-size:12px;font-weight:800;letter-spacing:.04em}
 @media(max-width:980px){.relay-brand-panel-head{align-items:flex-start;flex-direction:column}.relay-brand-panel{padding:18px}}
+
+/* v7.21.17 product summary sidebar alignment */
+.product-side-card .spec-table div{grid-template-columns:86px minmax(0,1fr);gap:12px;padding:12px 0}
+.product-side-card .spec-table span{white-space:nowrap}
+.product-side-card .spec-table strong{min-width:0;line-height:1.55;text-align:left;word-break:normal;overflow-wrap:break-word}
+@media(max-width:480px){.product-side-card .spec-table div{grid-template-columns:1fr;gap:4px}.product-side-card .spec-table span{white-space:normal}}

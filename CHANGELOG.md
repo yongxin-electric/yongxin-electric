@@ -1,3 +1,9 @@
+## v7.21.17 (2026-09-14)
+- 修正 `product-fuji-sw-1n-sc-1n-ac220v-tr-n2-24-30a.html`：逐張檢視照片內容後，確認 `image-04.jpg` 為完整正面照，改為商品頁封面主圖。
+- 補回 5 張商品縮圖文字並依內容重新排序：正面主圖、前斜角、側面銘牌、背面端子、背面結構。
+- 同步 `category-fuji-magnetic-starters.html` 與 `assets/product-search-index.js` 的 SW-1N + TR-N2 封面圖。
+- 修正商品資料摘要側欄的共用 CSS：原 300px 側欄沿用 190px 標籤欄造成值欄過窄；改為適合側欄的欄寬與換行規則，手機 480px 以下改為單欄排列。
+
 ## v7.21.16 (2026-09-13)
 - 新增技術專欄 #011 `article-contactor-ac1-ac3-utilization-category.html`，說明電磁接觸器 AC-1、AC-3、AC-4、AC-6a、AC-6b 使用類別與負載差異。
 - Schneider LC1D18 範例依官方資料列示 AC-3 18A、AC-1 32A，並說明不同工作電壓下的馬達 kW 額定不可直接混用。

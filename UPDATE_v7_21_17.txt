@@ -1,0 +1,4 @@
+v7.21.17
+- Fix SW-1N front cover and thumbnail labels.
+- Align product summary sidebar text.
+- Sync category and search covers.
