@@ -1,0 +1,4 @@
+v7.21.19
+- Complete Fuji SRC50-2F product gallery with 3 user-provided photos.
+- Use verified front-view photo as cover.
+- Sync industrial-relay category card and product search index.
