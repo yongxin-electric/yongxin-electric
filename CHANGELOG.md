@@ -1,3 +1,10 @@
+## v7.21.23 (2026-09-15)
+- 新增 `product-panasonic-wk3001-grounded-h-surface-receptacle.html`：Panasonic／National WK3001 接地 H 型明插座商品頁。
+- 新增 `category-panasonic-wiring-devices.html`：Panasonic 配線器具／明插座分類頁。
+- 新增商品圖資 `assets/products/panasonic-wiring-devices/wk3001/image-01.jpg`～`image-05.jpg`，主圖採正面照並全數加上永信電料行浮水印。
+- 更新 `brand-panasonic.html`、`brands.html`、`category-switches-operation.html`、`products.html`、`assets/product-search-index.js`。
+- 執行 `tools/site_sync_audit.py` 並產出 `SITE_SYNC_AUDIT_v7_21_23.md`。
+
 ## v7.21.22 (2026-09-15)
 - 修正 `product-siemens-3rt2018-1bb41-dc24v.html`：刪除第 9 張非商品照片，商品相簿由 9 張改為 8 張。
 - 同步更新 `assets/product-search-index.js` 內 3RT2018-1BB41 的商品照片數量。
