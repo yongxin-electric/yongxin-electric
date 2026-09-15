@@ -1,0 +1,4 @@
+v7.21.22
+- 刪除 product-siemens-3rt2018-1bb41-dc24v.html 的照片 9（非商品照片）。
+- 商品頁與搜尋索引的照片數量由 9 張改為 8 張。
+- 強化 tools/site_sync_audit.py 的商品圖疑似非商品文件輔助檢查。

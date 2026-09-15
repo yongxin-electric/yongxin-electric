@@ -1,3 +1,9 @@
+## v7.21.22 (2026-09-15)
+- 修正 `product-siemens-3rt2018-1bb41-dc24v.html`：刪除第 9 張非商品照片，商品相簿由 9 張改為 8 張。
+- 同步更新 `assets/product-search-index.js` 內 3RT2018-1BB41 的商品照片數量。
+- 強化 `tools/site_sync_audit.py`：新增商品圖疑似非商品文件的關鍵字檢查輔助機制，並重新產生 `SITE_SYNC_AUDIT_v7_21_22.md`。
+- 產出 `UPDATE_DELETE_LIST_v7_21_22.txt`，提醒使用 Update ZIP 時可刪除舊檔 `image-09.jpg`。
+
 ## v7.21.20 (2026-09-15)
 - 新增 TOCOS `RV24YN 20S` 可變電阻 10 個商品頁：B102 1KΩ、B202 2KΩ、B302 3KΩ、B502 5KΩ、B103 10KΩ、B203 20KΩ、B503 50KΩ、B104 100KΩ、B254 250KΩ、B504 500KΩ。
 - 使用者提供的每個阻值版本皆加入 2 張實物照，並共用 RV24YN 20S 尺寸圖；網站版圖片已套用永信電料行低干擾浮水印，阻值面照片固定作為封面主圖。
