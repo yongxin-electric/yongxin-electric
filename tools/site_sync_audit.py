@@ -88,6 +88,6 @@ for name in category_files:
     lines.append(f'- `{name}`：{count} 個商品頁連結')
 lines.append('')
 
-out_path = root / 'SITE_SYNC_AUDIT_v7_21_20.md'
+out_path = root / 'SITE_SYNC_AUDIT_v7_21_21.md'
 out_path.write_text('\n'.join(lines), encoding='utf-8')
 print(out_path)
