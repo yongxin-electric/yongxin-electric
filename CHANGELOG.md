@@ -1,3 +1,10 @@
+## v7.21.20 (2026-09-15)
+- 新增 TOCOS `RV24YN 20S` 可變電阻 10 個商品頁：B102 1KΩ、B202 2KΩ、B302 3KΩ、B502 5KΩ、B103 10KΩ、B203 20KΩ、B503 50KΩ、B104 100KΩ、B254 250KΩ、B504 500KΩ。
+- 使用者提供的每個阻值版本皆加入 2 張實物照，並共用 RV24YN 20S 尺寸圖；網站版圖片已套用永信電料行低干擾浮水印，阻值面照片固定作為封面主圖。
+- 新增 `category-tocos-variable-resistors.html`，並同步更新 `category-switches-operation.html`、`products.html` 的開關與操作元件卡片與數量。
+- `assets/product-search-index.js` 已同步收錄 10 個 TOCOS 可變電阻商品；商品搜尋總數更新為 257。
+- 新增 `tools/site_sync_audit.py` 同步檢查機制，可檢查商品頁、搜尋索引、分類／入口頁連結與圖片檔是否同步；本版已產出 `SITE_SYNC_AUDIT_v7_21_20.md` 檢查報告。
+
 ## v7.21.19 (2026-09-14)
 - 補完 `product-fuji-src50-2f-ac220v.html`，加入使用者提供的 3 張 SRC50-2F 3A3B AC220V 黃標實物照片，並套用永信電料行低干擾浮水印。
 - 經逐張檢視照片內容後，以正面端子／接點照片作為主圖；其餘保留側面型號與黃標線圈辨識角度。

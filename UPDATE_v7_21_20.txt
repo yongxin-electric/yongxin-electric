@@ -1,0 +1,4 @@
+v7.21.20
+- 新增 TOCOS RV24YN 20S 可變電阻 10 個商品頁與分類頁。
+- 同步更新 products.html、category-switches-operation.html、assets/product-search-index.js。
+- 加入 tools/site_sync_audit.py 同步檢查機制與 SITE_SYNC_AUDIT_v7_21_20.md 報告。
