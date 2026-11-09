@@ -1,3 +1,12 @@
+## v7.21.24 (2026-11-09)
+- 建立 SEO Infrastructure，新增 `site-config.json` 作為正式網址與版本的集中設定。
+- 全站 349 個公開 HTML 加入唯一 canonical；首頁 canonical 指向 GitHub Pages 根網址，其餘頁面指向各自正式 URL。
+- 新增 `tools/apply_canonical.py`、`tools/build_sitemap.py`、`tools/seo_audit.py`、`tools/run_release_audits.py`。
+- 自動產生 `sitemap.xml`（349 URLs）與 `robots.txt`，供 Google 等搜尋引擎發現站內頁面。
+- 修正 Fuji SC-N2、SC-N5A、SC-N7 不同線圈電壓版本的 3 組重複 title／meta description。
+- `SITE_SYNC_AUDIT_v7_21_24.md`：PASS；商品頁 269、搜尋索引 269、products.html 顯示 269。
+- `SEO_AUDIT_v7_21_24.md`：PASS；349/349 HTML 具有 title、description、單一 H1、圖片 alt、canonical 且全部納入 Sitemap；0 critical issues。另保留 181 項 meta description 偏短之非阻擋式警告，供後續內容優化，不在本版批次改寫。
+
 ## v7.21.23 (2026-09-15)
 - 新增 `product-panasonic-wk3001-grounded-h-surface-receptacle.html`：Panasonic／National WK3001 接地 H 型明插座商品頁。
 - 新增 `category-panasonic-wiring-devices.html`：Panasonic 配線器具／明插座分類頁。

@@ -105,6 +105,7 @@ for name in category_files:
     lines.append(f'- `{name}`：{count} 個商品頁連結')
 lines.append('')
 
-out_path = root / 'SITE_SYNC_AUDIT_v7_21_23.md'
+out_path = root / 'SITE_SYNC_AUDIT_v7_21_24.md'
 out_path.write_text('\n'.join(lines), encoding='utf-8')
 print(out_path)
+sys.exit(0 if status == 'PASS' else 1)

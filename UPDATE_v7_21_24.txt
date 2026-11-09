@@ -1,0 +1,18 @@
+v7.21.24 — SEO Infrastructure
+
+主要更新：
+1. 全站 349 個公開 HTML 加入 canonical。
+2. 新增 site-config.json 集中管理正式 base URL。
+3. 新增 tools/apply_canonical.py，自動同步各頁 canonical。
+4. 新增 tools/build_sitemap.py，自動產生 sitemap.xml 與 robots.txt。
+5. 新增 tools/seo_audit.py，檢查 title、meta description、H1、canonical、圖片 alt、重複 title/description、Sitemap 與 robots。
+6. 新增 tools/run_release_audits.py，將 canonical、Sitemap、SITE_SYNC_AUDIT、SEO_AUDIT 串成發布前固定流程。
+7. 修正 Fuji SC-N2、SC-N5A、SC-N7 各兩個電壓版本的重複 title/meta description。
+
+稽核結果：
+- SITE_SYNC_AUDIT：PASS（商品頁 269 / 搜尋索引 269 / products.html 269）
+- SEO_AUDIT：PASS（349 HTML / Sitemap 349 URLs / Critical issues 0）
+- 非阻擋式警告：181 項 meta description 少於 50 字元，保留作下一階段內容 SEO 優化，不在本版盲目批次改寫。
+
+發布建議：
+- 本版本修改全站 HTML 與 SEO 基礎設施，建議使用 Full ZIP 更新。

@@ -1,11 +1,12 @@
 # 永信電料行網站
 
-目前版本：v7.21.23
+目前版本：v7.21.24
 
 台中工業電料、自動控制元件與機台維修材料的 B2B 企業官網與商品型錄。
 
 ## 本版更新
 
+- v7.21.24 建立 SEO Infrastructure：全站 349 個公開 HTML 加入 canonical，新增 `site-config.json`、`sitemap.xml`、`robots.txt`、`tools/apply_canonical.py`、`tools/build_sitemap.py`、`tools/seo_audit.py` 與 `tools/run_release_audits.py`；修正 Fuji SC-N2／SC-N5A／SC-N7 不同電壓版本的重複 title／description。SITE_SYNC_AUDIT 與 SEO_AUDIT 均 PASS。
 - v7.21.23 新增 Panasonic／National WK3001 接地 H 型明插座商品頁與分類頁，商品主圖採正面照，5 張商品圖已加永信電料行浮水印；同步更新 Panasonic 品牌頁、開關與操作元件分類、商品分類總覽與產品搜尋索引。
 - v7.21.22 修正西門子 3RT2018-1BB41 DC24V 商品頁：刪除第 9 張非商品照片，商品相簿與搜尋索引照片數量改為 8 張；同步檢查工具加入商品圖疑似非商品文件的輔助檢查。
 - v7.21.21 新增西門子 SIEMENS 11 個商品頁：包含 SIRIUS 接觸器／輔助接點、5SY 迴路保護器、3RV2 馬達保護器與附件、SIMATIC S7-300 模組與 SINAMICS G120C 變頻器；同步建立 4 個西門子分類頁、1 個品牌頁，更新商品分類總數、品牌頁與站內搜尋索引。

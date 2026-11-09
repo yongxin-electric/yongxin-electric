@@ -149,3 +149,15 @@
 - 舊型 SRC、SRCa、FMC、SRC50 等若只能取得世代資料或實物銘牌，公開頁只列可確認內容；不得用後來 SC／SH 系列的線圈功耗、動作時間、接點容量或附件相容性反推。
 - SC-NEXT 官方新舊比較頁可作為尺寸、安裝、接點與性能差異的核對來源，但除非原廠明確給出 replacement / compatibility 結論，網站不得把比較候選寫成 1:1 直接替代。
 - 使用者提供的圖片若檔名、構圖或來源跡象顯示可能為外部網站／電商商品圖，在未確認使用權前不得加上永信浮水印或當作永信實拍；可先建立無外部圖的商品頁並等待自有實拍補圖。
+
+## SEO Infrastructure / 發布稽核 SOP（v7.21.24 起）
+- 正式基準網址集中於 `site-config.json` 的 `base_url`。目前為 `https://yongxin-electric.github.io/yongxin-electric/`；未來更換自訂網域時先修改此設定，再重跑發布稽核。
+- 每個公開 HTML 必須有且只有一個 `<title>`、meta description、H1 與 canonical；商品圖片必須具備非空白 alt。
+- canonical 不可人工任意填寫；發布前執行 `tools/apply_canonical.py` 統一同步。
+- `sitemap.xml` 與 `robots.txt` 不採人工逐頁維護；發布前由 `tools/build_sitemap.py` 依實際公開 HTML 自動產生。
+- 不同規格／電壓的商品頁不可共用完全相同的 title 或 meta description；完整型號與電壓應保留其差異，避免搜尋引擎混淆。
+- 每次正式網站更新必須執行 `tools/run_release_audits.py`；此流程依序同步 canonical、建立 Sitemap/robots、執行 SITE_SYNC_AUDIT 與 SEO_AUDIT。
+- SITE_SYNC_AUDIT 或 SEO_AUDIT 任一不是 PASS，皆不得視為正式可發布版本。
+- SEO_AUDIT 的非阻擋式 warnings（例如 description 偏短）應列入後續優化清單，但不可為了消除警告而自動虛構或過度改寫商品技術內容。
+- Update ZIP 必須由「上一版 Full ZIP」與最終工作樹實際差異產生，不依人工階段清單猜測；全站共用或大量 HTML 修改時，必須明確建議使用 Full ZIP。
+

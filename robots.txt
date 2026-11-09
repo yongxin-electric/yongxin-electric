@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yongxin-electric.github.io/yongxin-electric/sitemap.xml
