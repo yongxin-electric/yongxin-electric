@@ -1,3 +1,10 @@
+# v7.21.27 (2026-11-09)
+
+- 新增 Google Search Console HTML 驗證檔 `googleeb05c292964b212c.html` 至網站根目錄，檔案內容保持 Google 原始驗證字串不變。
+- `tools/apply_canonical.py`、`tools/build_sitemap.py`、`tools/seo_audit.py` 加入 Google 驗證 HTML 排除規則，避免驗證檔被視為一般內容頁。
+- 驗證檔不加入 canonical、不納入 Sitemap、不列入一般 SEO_AUDIT；原 349 個公開內容頁 SEO 範圍維持不變。
+- 發布前持續要求 SITE_SYNC_AUDIT + SEO_AUDIT 雙重 PASS。
+
 # v7.21.26
 
 - SEO Content Optimization Phase 2：補強 127 個商品頁 meta description。

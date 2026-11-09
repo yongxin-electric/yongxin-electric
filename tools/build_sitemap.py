@@ -2,6 +2,7 @@
 from pathlib import Path
 from urllib.parse import quote
 import json
+import re
 import sys
 import xml.etree.ElementTree as ET
 
@@ -9,7 +10,15 @@ root = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path('.').resolve()
 config = json.loads((root / 'site-config.json').read_text(encoding='utf-8'))
 BASE_URL = config['base_url'].rstrip('/') + '/'
 
-html_files = sorted(p.name for p in root.glob('*.html') if p.name.lower() != '404.html')
+def is_content_html(p):
+    name = p.name.lower()
+    if name == '404.html':
+        return False
+    if re.fullmatch(r'google[a-z0-9_-]+\.html', name):
+        return False
+    return True
+
+html_files = sorted(p.name for p in root.glob('*.html') if is_content_html(p))
 core_order = [
     'index.html', 'about.html', 'products.html', 'brands.html', 'services.html',
     'case-studies.html', 'technical.html', 'contact.html'

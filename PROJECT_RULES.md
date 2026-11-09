@@ -167,4 +167,9 @@
 - 品牌頁與分類頁可使用「商品資料、實物照片、規格核對、詢價」等既有服務描述，但不得暗示官方代理或經銷授權。
 - 商品頁 SEO 優化不得改動完整型號字序；Fuji 等品牌既有型號 SOP 仍優先適用。
 - 每批 SEO 內容修改後必須重跑 `tools/run_release_audits.py`，並記錄 warning 變化。
+## Search Console 驗證檔 SOP（v7.21.27 起）
+
+- Google Search Console 提供的 `google*.html` 驗證檔必須保持原始內容，不得加入 canonical、版型、meta、JS 或其他 HTML 包裝。
+- `google*.html` 驗證檔屬搜尋引擎所有權驗證資產，不是網站內容頁，不納入 Sitemap，也不列入一般頁面 SEO_AUDIT。
+- 每次執行 canonical／Sitemap／SEO 發布工具時必須排除這類驗證檔；驗證成功後檔案仍應保留在網站根目錄，以維持驗證狀態。
 

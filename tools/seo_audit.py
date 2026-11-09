@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from collections import Counter, defaultdict
 from urllib.parse import unquote, urlparse
 import json
+import re
 import sys
 import xml.etree.ElementTree as ET
 
@@ -45,7 +46,15 @@ class PageParser(HTMLParser):
     def title(self):
         return ' '.join(''.join(self.title_parts).split())
 
-html_files = sorted(p for p in root.glob('*.html') if p.name.lower() != '404.html')
+def is_content_html(p):
+    name = p.name.lower()
+    if name == '404.html':
+        return False
+    if re.fullmatch(r'google[a-z0-9_-]+\.html', name):
+        return False
+    return True
+
+html_files = sorted(p for p in root.glob('*.html') if is_content_html(p))
 pages = {}
 for p in html_files:
     parser = PageParser()

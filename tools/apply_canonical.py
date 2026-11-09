@@ -8,10 +8,17 @@ root = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path('.').resolve()
 config = json.loads((root / 'site-config.json').read_text(encoding='utf-8'))
 BASE_URL = config['base_url'].rstrip('/') + '/'
 
+def is_content_html(p):
+    name = p.name.lower()
+    if name == '404.html':
+        return False
+    if re.fullmatch(r'google[a-z0-9_-]+\.html', name):
+        return False
+    return True
+
+html_files = [p for p in sorted(root.glob('*.html')) if is_content_html(p)]
 changed = 0
-for p in sorted(root.glob('*.html')):
-    if p.name.lower() == '404.html':
-        continue
+for p in html_files:
     href = BASE_URL if p.name == 'index.html' else BASE_URL + p.name
     text = p.read_text(encoding='utf-8', errors='strict')
     new_tag = f'<link rel="canonical" href="{href}"/>'
@@ -23,4 +30,4 @@ for p in sorted(root.glob('*.html')):
     if updated != text:
         p.write_text(updated, encoding='utf-8')
         changed += 1
-print(f'canonical synchronized: {len(list(root.glob("*.html")))} HTML, {changed} changed')
+print(f'canonical synchronized: {len(html_files)} content HTML, {changed} changed')

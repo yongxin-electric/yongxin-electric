@@ -1,0 +1,23 @@
+v7.21.27 diff from v7.21.26 Full
+
+Changed: 7
+Added: 4
+Deleted: 0
+
+[CHANGED]
+CHANGELOG.md
+PROJECT_RULES.md
+README.md
+site-config.json
+tools/apply_canonical.py
+tools/build_sitemap.py
+tools/seo_audit.py
+
+[ADDED]
+SEO_AUDIT_v7_21_27.md
+SITE_SYNC_AUDIT_v7_21_27.md
+UPDATE_NOTES_v7_21_27.md
+googleeb05c292964b212c.html
+
+[DELETED]
+(none)
