@@ -1,3 +1,8 @@
+## v7.21.30 — Schneider white-background image correction
+- Reprocessed all 57 Schneider catalogue images from the original uploaded ZIP, preserving model details and blending alpha transparency onto white, instead of the former black matte.
+- Added low-interference 永信電料行 identification to all selected images; uncertain-provenance reference photos are explicitly labeled 商品參考圖 and are not presented as original store photographs.
+- Kept all 11 existing products, original image filenames, gallery navigation, brand/category/search associations.
+
 ## v7.21.29 — Schneider Electric TeSys contactors
 - 新增 11 個 LC1D／LC1K 接觸器頁面與商品圖片；新增施耐德品牌／分類頁，更新搜尋、品牌牆、分類、相關技術文章、Sitemap。
 - 對來源不明參考圖不施加實拍浮水印；排除跨型號 LC1D09 共用角度圖片與非商品截圖。
