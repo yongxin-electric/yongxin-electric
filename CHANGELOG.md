@@ -1,3 +1,11 @@
+# v7.21.26
+
+- SEO Content Optimization Phase 2：補強 127 個商品頁 meta description。
+- 保留既有商品名稱、型號、電壓、容量與頁面原有描述，不新增未驗證規格。
+- 統一補入「永信電料行提供型號與規格核對，選用前請確認設備需求與完整型號」的安全 SEO 說明。
+- SEO_AUDIT 的 meta description 少於 50 字元 warning 由 127 降為 0。
+- 發布前持續要求 SITE_SYNC_AUDIT + SEO_AUDIT 雙重 PASS。
+
 ## v7.21.25 (2026-11-09)
 
 - SEO 內容優化第一階段：針對 54 個非商品頁補強 meta description，涵蓋首頁、關於我們、聯絡我們、服務項目、技術專欄、常見品牌、品牌頁、分類頁、技術文章與服務實績。
