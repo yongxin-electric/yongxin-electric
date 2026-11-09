@@ -1,6 +1,11 @@
+## v7.21.29 — Schneider Electric TeSys contactors
+- 新增 11 個 LC1D／LC1K 接觸器頁面與商品圖片；新增施耐德品牌／分類頁，更新搜尋、品牌牆、分類、相關技術文章、Sitemap。
+- 對來源不明參考圖不施加實拍浮水印；排除跨型號 LC1D09 共用角度圖片與非商品截圖。
+- 特別提醒 LC1K0910M7 20A 不能當作 AC-3 額定；官方 AC-3 規格為 9A。
+
 # v7.21.27 (2026-11-09)
 
-## v7.21.28 — Photoelectric Sensor Technical Article
+## v7.21.29 — Photoelectric Sensor Technical Article
 
 - 新增技術專欄 #012 `article-photoelectric-sensor-sensing-methods.html`，主題為光電開關對照型、回歸反射型、漫反射型差異與誤動作排查。
 - 新增文章主圖 `assets/articles/photoelectric-sensor-sensing-methods/photoelectric-sensor-sensing-methods.png`。
