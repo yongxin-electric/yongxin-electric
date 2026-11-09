@@ -1,3 +1,12 @@
+## v7.21.25 (2026-11-09)
+
+- SEO 內容優化第一階段：針對 54 個非商品頁補強 meta description，涵蓋首頁、關於我們、聯絡我們、服務項目、技術專欄、常見品牌、品牌頁、分類頁、技術文章與服務實績。
+- 不改寫商品規格、庫存、價格或品牌授權資訊；商品頁留待下一階段逐批處理。
+- SEO_AUDIT 偏短 meta description warning：181 → 127；剩餘 127 項均為商品頁。
+- `tools/seo_audit.py` 與 `tools/site_sync_audit.py` 的報告檔名改為依 `site-config.json` 版本自動產生，避免每版手動改檔名。
+- `SITE_SYNC_AUDIT_v7_21_25.md`：PASS；商品頁 269、搜尋索引 269、products.html 顯示 269。
+- `SEO_AUDIT_v7_21_25.md`：PASS；349/349 HTML 具有 title、description、單一 H1、圖片 alt、canonical 且全部納入 Sitemap；0 critical issues。
+
 ## v7.21.24 (2026-11-09)
 - 建立 SEO Infrastructure，新增 `site-config.json` 作為正式網址與版本的集中設定。
 - 全站 349 個公開 HTML 加入唯一 canonical；首頁 canonical 指向 GitHub Pages 根網址，其餘頁面指向各自正式 URL。

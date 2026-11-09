@@ -160,4 +160,11 @@
 - SITE_SYNC_AUDIT 或 SEO_AUDIT 任一不是 PASS，皆不得視為正式可發布版本。
 - SEO_AUDIT 的非阻擋式 warnings（例如 description 偏短）應列入後續優化清單，但不可為了消除警告而自動虛構或過度改寫商品技術內容。
 - Update ZIP 必須由「上一版 Full ZIP」與最終工作樹實際差異產生，不依人工階段清單猜測；全站共用或大量 HTML 修改時，必須明確建議使用 Full ZIP。
+## SEO 內容優化 SOP（v7.21.25 起）
+
+- SEO description 優化採分階段進行：先非商品頁，再逐批商品頁，避免一次大規模改寫造成內容失真。
+- meta description 必須以頁面既有且可驗證內容為基礎，不得為 SEO 虛構庫存、價格、代理／授權、相容性、規格或用途。
+- 品牌頁與分類頁可使用「商品資料、實物照片、規格核對、詢價」等既有服務描述，但不得暗示官方代理或經銷授權。
+- 商品頁 SEO 優化不得改動完整型號字序；Fuji 等品牌既有型號 SOP 仍優先適用。
+- 每批 SEO 內容修改後必須重跑 `tools/run_release_audits.py`，並記錄 warning 變化。
 

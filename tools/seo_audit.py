@@ -184,7 +184,8 @@ else:
             lines.append(f'- …另有 {len(vals)-30} 項')
         lines.append('')
 
-out = root / 'SEO_AUDIT_v7_21_24.md'
+version = config.get('version', 'v0.0.0').replace('.', '_')
+out = root / f'SEO_AUDIT_{version}.md'
 out.write_text('\n'.join(lines), encoding='utf-8')
 print(out)
 sys.exit(0 if status == 'PASS' else 1)

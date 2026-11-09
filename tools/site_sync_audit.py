@@ -3,6 +3,8 @@ from pathlib import Path
 import json, re, sys
 
 root = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path('.').resolve()
+config_path = root / 'site-config.json'
+config = json.loads(config_path.read_text(encoding='utf-8')) if config_path.exists() else {'version':'v0.0.0'}
 product_files = sorted(p.name for p in root.glob('product-*.html'))
 category_files = sorted(p.name for p in root.glob('category-*.html'))
 entry_pages = ['index.html', 'products.html', 'brands.html'] + category_files
@@ -105,7 +107,8 @@ for name in category_files:
     lines.append(f'- `{name}`：{count} 個商品頁連結')
 lines.append('')
 
-out_path = root / 'SITE_SYNC_AUDIT_v7_21_24.md'
+version = config.get('version', 'v0.0.0').replace('.', '_')
+out_path = root / f'SITE_SYNC_AUDIT_{version}.md'
 out_path.write_text('\n'.join(lines), encoding='utf-8')
 print(out_path)
 sys.exit(0 if status == 'PASS' else 1)
