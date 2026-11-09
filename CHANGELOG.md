@@ -1,5 +1,15 @@
 # v7.21.27 (2026-11-09)
 
+## v7.21.28 — Photoelectric Sensor Technical Article
+
+- 新增技術專欄 #012 `article-photoelectric-sensor-sensing-methods.html`，主題為光電開關對照型、回歸反射型、漫反射型差異與誤動作排查。
+- 新增文章主圖 `assets/articles/photoelectric-sensor-sensing-methods/photoelectric-sensor-sensing-methods.png`。
+- `technical.html` 新增「感測檢出」分類並將 #012 置頂；首頁最新技術文章同步更新為 #012。
+- `category-sensors-detection.html` 新增本篇技術文章入口，建立分類 → 文章內鏈。
+- 現有 269 個商品頁未找到光電開關商品，因此不將浮球、溫度感測器等不相干商品強行列為相關商品；文章改連「感測與檢出元件」分類。
+- 技術敘述以使用者提供文章為主，並加入 OMRON 官方 Photoelectric Sensors 與 E3FA/E3RA 系列規格頁作參考來源。
+
+
 - 新增 Google Search Console HTML 驗證檔 `googleeb05c292964b212c.html` 至網站根目錄，檔案內容保持 Google 原始驗證字串不變。
 - `tools/apply_canonical.py`、`tools/build_sitemap.py`、`tools/seo_audit.py` 加入 Google 驗證 HTML 排除規則，避免驗證檔被視為一般內容頁。
 - 驗證檔不加入 canonical、不納入 Sitemap、不列入一般 SEO_AUDIT；原 349 個公開內容頁 SEO 範圍維持不變。

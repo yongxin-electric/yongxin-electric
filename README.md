@@ -6,6 +6,7 @@
 
 ## 本版更新
 
+- v7.21.28 新增技術專欄 #012「光電開關明明有亮，機台卻一直誤動作？」：比較對照型、回歸反射型、漫反射型，並整理 NPN／PNP、Light-ON／Dark-ON、感測距離與現場排查；新增文章主圖、技術專欄置頂、首頁最新文章入口與感測分類反向連結。現有商品目錄無光電開關商品頁，因此未強行建立不相干商品關聯。
 - v7.21.27 新增 Google Search Console HTML 驗證檔 `googleeb05c292964b212c.html`；SEO 工具同步加入 Google 驗證檔排除規則，確保驗證檔不被 canonical 流程改寫、不納入 Sitemap，也不列入一般頁面 SEO_AUDIT。
 - v7.21.26 完成 SEO Content Optimization Phase 2：補強 127 個商品頁的 meta description，保留既有商品型號與規格描述，只加入永信電料行的型號／規格核對與選用前完整型號確認提醒；不新增庫存、價格、代理資格或未驗證規格。SEO 非阻擋式短 description warning 降為 0。
 - v7.21.25 SEO 內容優化第一階段：補強首頁、關於我們、聯絡我們、服務項目、技術專欄、品牌頁、分類頁、技術文章與服務實績等 54 個非商品頁的 meta description；SEO_AUDIT 偏短 description warning 由 181 降至 127，剩餘項目均為商品頁。另將 SEO／SITE audit 報告檔名改為依 `site-config.json` 版本自動產生。SITE_SYNC_AUDIT 與 SEO_AUDIT 均 PASS。

@@ -1,0 +1,24 @@
+v7.21.28 diff from v7.21.27 Full
+
+Changed: 7
+Added: 5
+Deleted: 0
+
+[CHANGED]
+CHANGELOG.md
+README.md
+category-sensors-detection.html
+index.html
+site-config.json
+sitemap.xml
+technical.html
+
+[ADDED]
+SEO_AUDIT_v7_21_28.md
+SITE_SYNC_AUDIT_v7_21_28.md
+UPDATE_NOTES_v7_21_28.md
+article-photoelectric-sensor-sensing-methods.html
+assets/articles/photoelectric-sensor-sensing-methods/photoelectric-sensor-sensing-methods.png
+
+[DELETED]
+(none)
