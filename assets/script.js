@@ -35,6 +35,38 @@ function bindProductGalleries() {
     });
   });
 }
+
+function ensureThumbLabels() {
+  document.querySelectorAll('.product-thumbnails').forEach((wrap) => {
+    wrap.querySelectorAll('.product-thumb').forEach((button, index) => {
+      let span = button.querySelector('span');
+      if (span && span.textContent.trim()) return;
+      const img = button.querySelector('img');
+      let label = button.dataset.label || "";
+      const raw = (button.dataset.alt || img?.getAttribute('alt') || "").replace(/縮圖/g, "").trim();
+      if (!label) {
+        const patterns = [
+          "正面斜角","正面仰角","正面側角","正面近照","正面","側面銘牌","側面斜角","左側面","右側面","側面","背面端子","背面斜角","背面結構","背面","內部結構","端子面","銘牌","尺寸圖","主圖"
+        ];
+        label = patterns.find((item) => raw.includes(item)) || "";
+      }
+      if (!label) {
+        const photoMatch = raw.match(/照片\s*\d+/);
+        if (photoMatch) label = photoMatch[0];
+      }
+      if (!label) label = index === 0 ? "主圖" : `照片 ${index + 1}`;
+      if (!span) {
+        span = document.createElement('span');
+        button.appendChild(span);
+      }
+      span.textContent = label;
+      button.dataset.label = label;
+    });
+  });
+}
+
+ensureThumbLabels();
+
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', bindProductGalleries);
 } else {
