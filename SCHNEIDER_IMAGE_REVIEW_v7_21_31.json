@@ -1,0 +1,255 @@
+[
+  {
+    "model": "LC1D18M7",
+    "image": "assets/products/schneider-contactors/lc1d18m7-ac220v/image-01.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D18M7 AC220V 18A/LC1D18M7_Image_1500x1500.jpg",
+    "photo_label": "正面斜角（主圖）",
+    "personal": false,
+    "dimensions": [
+      1087,
+      1363
+    ]
+  },
+  {
+    "model": "LC1D18M7",
+    "image": "assets/products/schneider-contactors/lc1d18m7-ac220v/image-02.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D18M7 AC220V 18A/001.png",
+    "photo_label": "正面上方斜角",
+    "personal": false,
+    "dimensions": [
+      384,
+      547
+    ]
+  },
+  {
+    "model": "LC1D18M7",
+    "image": "assets/products/schneider-contactors/lc1d18m7-ac220v/image-03.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D18M7 AC220V 18A/002.png",
+    "photo_label": "正面右側斜角／側面銘牌",
+    "personal": false,
+    "dimensions": [
+      526,
+      468
+    ]
+  },
+  {
+    "model": "LC1D18M7",
+    "image": "assets/products/schneider-contactors/lc1d18m7-ac220v/image-04.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D18M7 AC220V 18A/003.png",
+    "photo_label": "正面上方視角",
+    "personal": false,
+    "dimensions": [
+      388,
+      526
+    ]
+  },
+  {
+    "model": "LC1D18M7",
+    "image": "assets/products/schneider-contactors/lc1d18m7-ac220v/image-05.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D18M7 AC220V 18A/S__85483893_0.jpg",
+    "photo_label": "正面實物照",
+    "personal": true,
+    "dimensions": [
+      455,
+      630
+    ]
+  },
+  {
+    "model": "LC1D18M7",
+    "image": "assets/products/schneider-contactors/lc1d18m7-ac220v/image-06.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D18M7 AC220V 18A/S__85483894_0.jpg",
+    "photo_label": "側面實物銘牌照",
+    "personal": true,
+    "dimensions": [
+      630,
+      719
+    ]
+  },
+  {
+    "model": "LC1D18M7",
+    "image": "assets/products/schneider-contactors/lc1d18m7-ac220v/image-07.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D18M7 AC220V 18A/S__85483895_0.jpg",
+    "photo_label": "背面實物照",
+    "personal": true,
+    "dimensions": [
+      437,
+      759
+    ]
+  },
+  {
+    "model": "LC1D32M7",
+    "image": "assets/products/schneider-contactors/lc1d32m7-ac220v/image-01.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D32M7 AC220V 32A/LC1D32M7_Image_1500.jpg",
+    "photo_label": "正面斜角（主圖）",
+    "personal": false,
+    "dimensions": [
+      1006,
+      1365
+    ]
+  },
+  {
+    "model": "LC1D32M7",
+    "image": "assets/products/schneider-contactors/lc1d32m7-ac220v/image-02.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D32M7 AC220V 32A/001.png",
+    "photo_label": "正面上方斜角",
+    "personal": false,
+    "dimensions": [
+      360,
+      538
+    ]
+  },
+  {
+    "model": "LC1D32M7",
+    "image": "assets/products/schneider-contactors/lc1d32m7-ac220v/image-03.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D32M7 AC220V 32A/002.png",
+    "photo_label": "背面與線圈標籤",
+    "personal": false,
+    "dimensions": [
+      351,
+      507
+    ]
+  },
+  {
+    "model": "LC1D32M7",
+    "image": "assets/products/schneider-contactors/lc1d32m7-ac220v/image-04.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D32M7 AC220V 32A/003.png",
+    "photo_label": "正面右側斜角",
+    "personal": false,
+    "dimensions": [
+      349,
+      466
+    ]
+  },
+  {
+    "model": "LC1D32M7",
+    "image": "assets/products/schneider-contactors/lc1d32m7-ac220v/image-05.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D32M7 AC220V 32A/004.png",
+    "photo_label": "側面銘牌照",
+    "personal": false,
+    "dimensions": [
+      482,
+      468
+    ]
+  },
+  {
+    "model": "LC1D38M7",
+    "image": "assets/products/schneider-contactors/lc1d38m7-ac220v/image-01.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D38M7 AC220V 38A/LC1D38M7_Image_1500x1500.jpg",
+    "photo_label": "正面斜角（主圖）",
+    "personal": false,
+    "dimensions": [
+      1011,
+      1363
+    ]
+  },
+  {
+    "model": "LC1D38M7",
+    "image": "assets/products/schneider-contactors/lc1d38m7-ac220v/image-02.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D38M7 AC220V 38A/001.png",
+    "photo_label": "正面上方斜角",
+    "personal": false,
+    "dimensions": [
+      361,
+      541
+    ]
+  },
+  {
+    "model": "LC1D38M7",
+    "image": "assets/products/schneider-contactors/lc1d38m7-ac220v/image-03.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D38M7 AC220V 38A/002.png",
+    "photo_label": "背面端子照",
+    "personal": false,
+    "dimensions": [
+      342,
+      525
+    ]
+  },
+  {
+    "model": "LC1D38M7",
+    "image": "assets/products/schneider-contactors/lc1d38m7-ac220v/image-04.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D38M7 AC220V 38A/003.png",
+    "photo_label": "背面與線圈標籤",
+    "personal": false,
+    "dimensions": [
+      352,
+      510
+    ]
+  },
+  {
+    "model": "LC1D38M7",
+    "image": "assets/products/schneider-contactors/lc1d38m7-ac220v/image-05.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D38M7 AC220V 38A/004.png",
+    "photo_label": "正面右側／側面銘牌",
+    "personal": false,
+    "dimensions": [
+      437,
+      468
+    ]
+  },
+  {
+    "model": "LC1D50AM7",
+    "image": "assets/products/schneider-contactors/lc1d50am7-ac220v/image-01.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D50AM7 AC220V 50A/LC1D50AM7_Image_1500x1500.jpg",
+    "photo_label": "正面斜角（主圖）",
+    "personal": false,
+    "dimensions": [
+      920,
+      1379
+    ]
+  },
+  {
+    "model": "LC1D50AM7",
+    "image": "assets/products/schneider-contactors/lc1d50am7-ac220v/image-02.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D50AM7 AC220V 50A/001.png",
+    "photo_label": "正面上方斜角",
+    "personal": false,
+    "dimensions": [
+      335,
+      556
+    ]
+  },
+  {
+    "model": "LC1D50AM7",
+    "image": "assets/products/schneider-contactors/lc1d50am7-ac220v/image-03.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D50AM7 AC220V 50A/002.png",
+    "photo_label": "側面銘牌與規格標籤",
+    "personal": false,
+    "dimensions": [
+      448,
+      458
+    ]
+  },
+  {
+    "model": "LC1D50AM7",
+    "image": "assets/products/schneider-contactors/lc1d50am7-ac220v/image-04.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D50AM7 AC220V 50A/003.png",
+    "photo_label": "正面右側斜角",
+    "personal": false,
+    "dimensions": [
+      382,
+      469
+    ]
+  },
+  {
+    "model": "LC1D50AM7",
+    "image": "assets/products/schneider-contactors/lc1d50am7-ac220v/image-05.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D50AM7 AC220V 50A/004.png",
+    "photo_label": "背面端子視角",
+    "personal": false,
+    "dimensions": [
+      310,
+      486
+    ]
+  },
+  {
+    "model": "LC1D50AM7",
+    "image": "assets/products/schneider-contactors/lc1d50am7-ac220v/image-06.jpg",
+    "source": "施耐德 Schneider 電磁接觸器 LC1D50AM7 AC220V 50A/005.png",
+    "photo_label": "背面另一角度",
+    "personal": false,
+    "dimensions": [
+      320,
+      470
+    ]
+  }
+]

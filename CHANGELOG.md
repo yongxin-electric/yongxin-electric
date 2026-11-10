@@ -1,3 +1,9 @@
+## v7.21.31 — Schneider cover angles, photo labels and repeated watermark
+- Set front-oblique photos as the main covers of LC1D18M7, LC1D32M7, LC1D38M7 and LC1D50AM7 (all AC220V) based on inspection of supplied original images.
+- Added actual directional labels under each gallery thumbnail and updated descriptive alt text for all 23 gallery images.
+- Regenerated all 23 photographs from the original upload and placed subtle repeated diagonal Yongxin identification throughout the image; unconfirmed-origin references explicitly retain 商品參考圖 labeling.
+- Maintained white backgrounds on transparent product images and left all other products unchanged.
+
 ## v7.21.30 — Schneider white-background image correction
 - Reprocessed all 57 Schneider catalogue images from the original uploaded ZIP, preserving model details and blending alpha transparency onto white, instead of the former black matte.
 - Added low-interference 永信電料行 identification to all selected images; uncertain-provenance reference photos are explicitly labeled 商品參考圖 and are not presented as original store photographs.
