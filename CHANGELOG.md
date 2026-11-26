@@ -1,3 +1,10 @@
+## v7.21.34 (2026-11-26)
+- 新增三菱電機 Mitsubishi Electric SD-Q11 DC24V 電磁接觸器商品頁，實物正面標示 Aux. 1a（1NO），不得誤寫成 1A 額定電流。
+- 使用本次上傳的五張商品照片，依實際角度排序並加入低干擾「永信電料行」識別，提供可點選相簿。
+- 新增 `category-mitsubishi-contactors.html`，同步更新三菱品牌頁、常見品牌計數、自動控制分類、商品搜尋索引（280→281）。
+- Sitemap 網址（363→365）加入新商品與分類頁；保留前一版 `sitemap-test.txt`，不修改 Google 所有權驗證檔。
+- 商品額定電流、相容替代、價格及庫存沒有照片可驗證，均不自行宣稱。
+
 ## v7.21.31 — Schneider cover angles, photo labels and repeated watermark
 - Set front-oblique photos as the main covers of LC1D18M7, LC1D32M7, LC1D38M7 and LC1D50AM7 (all AC220V) based on inspection of supplied original images.
 - Added actual directional labels under each gallery thumbnail and updated descriptive alt text for all 23 gallery images.
